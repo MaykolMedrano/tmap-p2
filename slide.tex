@@ -1,0 +1,223 @@
+\documentclass{beamer}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+\usepackage{amsmath,xcolor,multicol,booktabs,graphicx,calligra}
+\usepackage{Ritsumeikan}
+
+\title[Costs of Conflict]{The Economic Costs of Conflict:\\A Case Study of the Basque Country}
+\subtitle{Outline para presentaci\'on de clase}
+\author[Tu nombre]{Tu nombre}
+\institute[Clase]{Clase / Universidad}
+\date{Junio de 2026}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \begin{figure}[htpb]
+        \begin{center}
+            \includegraphics[keepaspectratio, height=1.4cm]{pic/Ritsumeikan_University_Logo.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Hoja de ruta}
+    \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Motivaci\'on}
+
+\begin{frame}{Pregunta central}
+    \begin{itemize}
+        \item El paper pregunta si el conflicto pol\'itico tiene costos econ\'omicos observables.
+        \item El caso de estudio es el Pa\'is Vasco durante la actividad terrorista de ETA.
+        \item El desaf\'io es construir un buen contrafactual: \emph{\textquestiondown qu\'e habr\'ia pasado sin terrorismo?}
+    \end{itemize}
+    \begin{block}{Idea clave}
+        No basta con mirar una correlaci\'on entre violencia y menor crecimiento. El aporte del paper es intentar aislar un efecto causal.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Por qu\'e este caso importa}
+    \begin{itemize}
+        \item Antes del conflicto, el Pa\'is Vasco era una de las regiones m\'as ricas de Espa\~na.
+        \item Durante las d\'ecadas siguientes, pierde posiciones relativas en ingreso per c\'apita.
+        \item El tema es relevante porque el conflicto afectaba inversi\'on, actividad empresarial y expectativas.
+    \end{itemize}
+    \begin{alertblock}{Problema emp\'irico}
+        Comparar solo con el resto de Espa\~na ser\'ia enga\~noso: el Pa\'is Vasco ya era distinto antes del terrorismo en ingreso, industria y capital humano.
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Contexto hist\'orico del conflicto}
+    \begin{columns}[T]
+        \begin{column}{0.6\textwidth}
+            \begin{itemize}
+                \item ETA surge en 1959, pero la violencia a gran escala despega desde mediados de los 70.
+                \item El conflicto se concentra en el Pa\'is Vasco y se prolonga por varias d\'ecadas.
+                \item En 1998--1999 ocurre una tregua que luego se rompe.
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.36\textwidth}
+            \begin{block}{Tres cifras}
+                \begin{itemize}
+                    \item 523 muertes en el Pa\'is Vasco
+                    \item 68.9\% de las muertes de ETA en Espa\~na
+                    \item 37 veces m\'as muertes per c\'apita que en el resto del pa\'is
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\section{Estrategia 1}
+
+\begin{frame}{Control sint\'etico: intuici\'on}
+    \begin{itemize}
+        \item Los autores construyen un ``Pa\'is Vasco sint\'etico'' usando una combinaci\'on de otras regiones espa\~nolas.
+        \item La idea es elegir regiones que se parezcan al Pa\'is Vasco antes del terrorismo.
+        \item Luego comparan la trayectoria observada con la trayectoria sint\'etica sin conflicto.
+    \end{itemize}
+    \begin{exampleblock}{Lectura simple}
+        Si ambas trayectorias eran parecidas antes del conflicto y luego divergen, esa brecha es evidencia consistente con un costo econ\'omico del terrorismo.
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}{C\'omo construyen el contrafactual}
+    \begin{itemize}
+        \item Variables pretratamiento: PIB per c\'apita, inversi\'on, densidad poblacional, estructura sectorial y capital humano.
+        \item El control sint\'etico queda compuesto principalmente por Catalu\~na y Madrid.
+        \item El objetivo es replicar bien la senda del Pa\'is Vasco en los a\~nos 60, antes del shock de terrorismo.
+    \end{itemize}
+    \begin{block}{Punto metodol\'ogico}
+        La comparaci\'on no es Pa\'is Vasco versus ``promedio de Espa\~na'', sino Pa\'is Vasco versus una regi\'on artificial dise\~nada para parecerse a \'el antes del conflicto.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Resultado principal sobre PIB}
+    \begin{itemize}
+        \item Antes de 1975, el Pa\'is Vasco real y el sint\'etico se mueven de forma muy similar.
+        \item Desde que el terrorismo se vuelve un fen\'omeno de gran escala, ambas series divergen.
+        \item La brecha promedio estimada es de alrededor de 10\% en PIB per c\'apita.
+    \end{itemize}
+    \begin{alertblock}{Interpretaci\'on}
+        El paper concluye que el conflicto tuvo un costo econ\'omico persistente y no solo transitorio.
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Validaci\'on del resultado}
+    \begin{itemize}
+        \item Cuando sube la intensidad del terrorismo, la brecha de PIB tiende a ampliarse.
+        \item El efecto parece operar con rezagos: el impacto m\'aximo aparece despu\'es de 2 a 3 a\~nos.
+        \item Los autores hacen un placebo con Catalu\~na para mostrar que el m\'etodo no genera brechas artificiales grandes por construcci\'on.
+    \end{itemize}
+    \begin{block}{Mensaje}
+        La evidencia apunta a que no estamos viendo solo una desaceleraci\'on industrial general, sino un efecto asociado al conflicto.
+    \end{block}
+\end{frame}
+
+\section{Estrategia 2}
+
+\begin{frame}{La tregua de 1998--1999 como experimento natural}
+    \begin{itemize}
+        \item ETA anuncia una tregua el 16 de septiembre de 1998, que comienza el 18 de septiembre.
+        \item La tregua gana credibilidad de forma gradual a medida que avanzan los contactos con el gobierno.
+        \item El 28 de noviembre de 1999 ETA anuncia el fin de la tregua.
+    \end{itemize}
+    \begin{exampleblock}{Predicci\'on econ\'omica}
+        Si el conflicto era costoso, las empresas expuestas al Pa\'is Vasco deber\'ian subir cuando la paz parece cre\'ible y caer cuando esa expectativa desaparece.
+    \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Dise\~no del event study}
+    \begin{itemize}
+        \item Los autores clasifican acciones en dos grupos: firmas expuestas al Pa\'is Vasco y firmas no expuestas.
+        \item Construyen dos portafolios buy-and-hold: 14 acciones ``Basque'' y 59 ``non-Basque''.
+        \item Comparan retornos anormales controlando por riesgo con un modelo de tres factores de Fama-French.
+    \end{itemize}
+    \begin{block}{Intuici\'on}
+        El mercado burs\'atil resume expectativas sobre utilidades futuras. Si la paz mejora el entorno econ\'omico, eso deber\'ia reflejarse en precios.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Resultados burs\'atiles}
+    \begin{table}[htpb]
+        \centering
+        \begin{tabular}{lcc}
+            \toprule
+            Per\'iodo & Efecto relativo & Lectura \\
+            \midrule
+            Good News & +10.14\% & Sube el portafolio expuesto \\
+            Bad News & -11.21\% & Cae el portafolio expuesto \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item Las acciones expuestas al Pa\'is Vasco reaccionan positivamente cuando la tregua gana credibilidad.
+        \item Cuando el proceso de paz colapsa, esas mismas acciones muestran un desempe\~no relativo negativo.
+        \item Las firmas no expuestas casi no reaccionan.
+    \end{itemize}
+\end{frame}
+
+\section{Lectura cr\'itica}
+
+\begin{frame}{Aportes del paper}
+    \begin{itemize}
+        \item Combina evidencia regional de largo plazo con evidencia financiera de alta frecuencia.
+        \item Usa dos estrategias complementarias para fortalecer la interpretaci\'on causal.
+        \item Es un antecedente muy importante de la l\'ogica de \emph{synthetic control}.
+    \end{itemize}
+    \begin{block}{Por qu\'e es un paper recordado}
+        No solo muestra un resultado sustantivo interesante; tambi\'en ofrece una estrategia emp\'irica elegante para estudiar conflictos y shocks regionales.
+    \end{block}
+\end{frame}
+
+\begin{frame}{L\'imites y preguntas para discutir}
+    \begin{itemize}
+        \item Es un estudio de caso: la validez externa es limitada.
+        \item La clasificaci\'on de firmas expuestas al Pa\'is Vasco depende del juicio de analistas.
+        \item Siempre queda la duda sobre shocks simult\'aneos o spillovers hacia otras regiones.
+    \end{itemize}
+    \begin{alertblock}{Preguntas para la clase}
+        \begin{itemize}
+            \item \textquestiondown Es cre\'ible el control sint\'etico elegido?
+            \item \textquestiondown Qu\'e fortalece m\'as el paper: la evidencia de PIB o la evidencia burs\'atil?
+            \item \textquestiondown Qu\'e har\'iamos distinto hoy con datos y m\'etodos m\'as recientes?
+        \end{itemize}
+    \end{alertblock}
+\end{frame}
+
+\section{Cierre}
+
+\begin{frame}{Conclusiones}
+    \begin{itemize}
+        \item El conflicto en el Pa\'is Vasco tuvo costos econ\'omicos relevantes y persistentes.
+        \item El paper estima una p\'erdida cercana a 10\% en PIB per c\'apita relativo al contrafactual.
+        \item La reacci\'on del mercado durante la tregua refuerza la idea de que el conflicto afectaba expectativas econ\'omicas reales.
+    \end{itemize}
+    \begin{block}{Mensaje final}
+        La contribuci\'on central del paper es mostrar que el conflicto pol\'itico no solo tiene costos humanos y sociales, sino tambi\'en costos econ\'omicos medibles.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Referencia principal}
+    \small
+    Abadie, Alberto, and Javier Gardeazabal (2003).\\
+    \emph{The Economic Costs of Conflict: A Case Study of the Basque Country}.\\
+    American Economic Review, 93(1), 113--132.
+    \vspace{0.5cm}
+
+    \begin{block}{Siguiente paso sugerido}
+        En una segunda ronda podemos agregar figuras del paper y una diapositiva final con ``speech notes'' para que la exposici\'on quede lista para presentar.
+    \end{block}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        {\Huge\calligra Thank You}
+    \end{center}
+\end{frame}
+
+\end{document}
