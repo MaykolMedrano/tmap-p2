@@ -60,17 +60,17 @@
     \begin{itemize}
         \item El paper estudia si el conflicto pol\'itico tiene costos econ\'omicos observables.
         \item La intuici\'on general parece obvia: m\'as violencia deber\'ia da\~nar la econom\'ia.
-        \item El problema emp\'irico es mucho m\'as dif\'icil: \textquestiondown c\'omo separar causalidad de simple correlaci\'on?
+        \item El problema emp\'irico es m\'as dif\'icil porque la violencia no es un shock ex\'ogeno puro: puede estar ligada a tensiones previas, a la estructura industrial y al ciclo macroecon\'omico.
     \end{itemize}
     \begin{block}{Idea central}
-        Abadie y Gardeazabal quieren medir qu\'e le cost\'o el terrorismo al Pa\'is Vasco, no solo describir que hubo menos crecimiento.
+        El desaf\'io central es construir un contrafactual plausible cuando terrorismo y desempe\~no econ\'omico pueden estar end\'ogenamente relacionados.
     \end{block}
 \end{frame}
 
 \begin{frame}{Pregunta de investigaci\'on}
     \begin{itemize}
         \item \textquestiondown C\'omo habr\'ia evolucionado la econom\'ia del Pa\'is Vasco en ausencia de terrorismo?
-        \item El gran problema es que ese contrafactual no se observa.
+        \item El gran problema es que ese contrafactual no se observa y tampoco es cre\'ible usar al resto de Espa\~na como control bruto.
         \item El paper responde eso principalmente con \emph{synthetic control} y luego lo contrasta con evidencia burs\'atil complementaria.
     \end{itemize}
     \begin{alertblock}{Pregunta operativa}
@@ -114,7 +114,20 @@
         \end{column}
         \begin{column}{0.52\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{tablas/tabla_2.png}
+            \scriptsize
+            \resizebox{\linewidth}{!}{%
+            \begin{tabular}{lr}
+                \toprule
+                & Valor \\
+                \midrule
+                Muertes en Pa\'is Vasco & 523 \\
+                Muertes resto de Espa\~na & 236 \\
+                \% en Pa\'is Vasco & 68.91 \\
+                Muertes por mill\'on: Pa\'is Vasco & 8.17 \\
+                Muertes por mill\'on: resto de Espa\~na & 0.22 \\
+                Raz\'on PV / resto & 37.43 \\
+                \bottomrule
+            \end{tabular}}
         \end{column}
     \end{columns}
 \end{frame}
@@ -133,7 +146,22 @@
         \end{column}
         \begin{column}{0.54\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{tablas/tabla_3.png}
+            \scriptsize
+            \resizebox{\linewidth}{!}{%
+            \begin{tabular}{lrrr}
+                \toprule
+                & PV & Espa\~na & PV sint. \\
+                \midrule
+                PIB pc & 5285 & 3633 & 5271 \\
+                Inversi\'on (\%) & 24.7 & 21.8 & 21.6 \\
+                Densidad & 246.9 & 66.3 & 196.3 \\
+                Industria (\%) & 45.1 & 26.6 & 37.6 \\
+                $>$ secundaria (\%) & 3.3 & 2.7 & 3.1 \\
+                \bottomrule
+            \end{tabular}}
+            
+            \vspace{0.15cm}
+            \tiny El ajuste es bueno en ingreso, pero no perfecto en exposici\'on industrial.
         \end{column}
     \end{columns}
 \end{frame}
@@ -142,6 +170,7 @@
     \begin{itemize}
         \item El paper usa dos dise\~nos complementarios para identificar el costo econ\'omico del conflicto.
         \item El dise\~no principal es el \emph{synthetic control}, que construye un contrafactual regional para medir el efecto de largo plazo sobre el PIB.
+        \item La idea es absorber shocks comunes y diferencias previas mejor que en una comparaci\'on simple con el resto de Espa\~na.
         \item La tregua de 1998--1999 aparece como evidencia complementaria, usando un experimento natural en el mercado burs\'atil.
     \end{itemize}
     \begin{block}{Idea}
@@ -182,9 +211,9 @@
         \qquad Y_1^* = Y_0W^*
     \end{equation*}
     \begin{itemize}
-        \item La idea no es estimar una regresi\'on, sino elegir pesos para que el Pa\'is Vasco sint\'etico se parezca lo m\'aximo posible al real antes del terrorismo.
-        \item La matriz $V$ fija cu\'anta importancia recibe cada predictor pretratamiento en esa comparaci\'on.
-        \item Una vez elegidos esos pesos, el contrafactual sale de seguir la trayectoria del sint\'etico despu\'es del shock.
+        \item $X_1$ resume los predictores pretratamiento del Pa\'is Vasco; $X_0$, los mismos predictores para las regiones donantes.
+        \item $W$ son pesos no negativos que suman 1 y $V$ fija cu\'anta importancia recibe cada predictor en el ajuste.
+        \item Con esos pesos, $Y_1^*=Y_0W^*$ produce la trayectoria contrafactual sin terrorismo.
     \end{itemize}
 \end{frame}
 
@@ -192,7 +221,7 @@
     \begin{itemize}
         \item Antes de 1975, el Pa\'is Vasco real y el sint\'etico muestran trayectorias muy parecidas.
         \item Eso sugiere que el contrafactual reproduce bien la din\'amica previa del ingreso.
-        \item Los pesos son observables y la comparaci\'on con placebo ayuda a defender que la divergencia posterior no es un artificio.
+        \item La credibilidad no viene de exogeneidad pura del terrorismo, sino de qu\'e tan bien el sint\'etico absorbe shocks comunes y diferencias previas.
     \end{itemize}
 \end{frame}
 
@@ -258,11 +287,11 @@
     \small El placebo no reproduce una brecha del mismo tipo, lo que hace m\'as cre\'ible la lectura causal para el Pa\'is Vasco.
 \end{frame}
 
-\begin{frame}{Relevancia metodol\'ogica de esta estrategia}
+\begin{frame}{Fortalezas y dudas de esta estrategia}
     \begin{itemize}
-        \item El m\'etodo obliga a mostrar c\'omo se arma el contrafactual, en vez de esconderlo en una regresi\'on.
-        \item El buen ajuste pretratamiento hace visible por qu\'e la comparaci\'on posterior es informativa.
-        \item La l\'ogica de placebos y trayectorias comparadas vuelve la identificaci\'on f\'acil de explicar y de defender.
+        \item Fortaleza: el ajuste pretratamiento y el placebo hacen transparente por qu\'e la comparaci\'on es informativa.
+        \item Duda: el control sint\'etico depende sobre todo de Catalu\~na y Madrid, por lo que la evidencia descansa mucho en esa combinaci\'on.
+        \item Duda: la estructura industrial del Pa\'is Vasco no queda replicada perfectamente, y eso importa por los shocks de los 70.
     \end{itemize}
 \end{frame}
 
@@ -291,6 +320,7 @@
     \begin{itemize}
         \item Los autores clasifican firmas en dos grupos: expuestas al Pa\'is Vasco y no expuestas.
         \item Construyen dos portafolios buy-and-hold: 14 acciones ``Basque'' y 59 ``non-Basque''.
+        \item Good News cubre 22 sesiones de trading; Bad News, 66 sesiones.
         \item La comparaci\'on se hace con retornos anormales, no solo retornos brutos.
     \end{itemize}
 \end{frame}
@@ -301,8 +331,8 @@
     \end{equation*}
     \begin{itemize}
         \item $R_m$, $SMB$ y $HML$ controlan por movimientos normales del mercado y diferencias de riesgo.
-        \item $\gamma_1$ captura el retorno anormal durante las buenas noticias sobre la tregua.
-        \item $\gamma_2$ captura el retorno anormal durante las malas noticias sobre el fin del proceso de paz.
+        \item $\gamma_1$ captura el retorno anormal promedio durante la ventana de 22 sesiones de buenas noticias.
+        \item $\gamma_2$ captura el retorno anormal promedio durante la ventana de 66 sesiones de malas noticias.
     \end{itemize}
 \end{frame}
 
@@ -324,17 +354,27 @@
 
 \begin{frame}{Magnitud de los efectos burs\'atiles}
     \begin{columns}[T,totalwidth=\textwidth]
-        \begin{column}{0.4\textwidth}
+        \begin{column}{0.42\textwidth}
             \begin{itemize}
-                \item Good News: retorno relativo de `+10.14\%`.
-                \item Bad News: retorno relativo de `-11.21\%`.
-                \item Los efectos son econ\'omicamente grandes.
-                \item Estos resultados son consistentes con la idea de que el conflicto afectaba el valor presente de ganancias futuras.
+                \item La se\~nal econ\'omica es grande y del signo esperado.
+                \item El ejercicio complementa, pero no reemplaza, la evidencia del control sint\'etico.
             \end{itemize}
         \end{column}
-        \begin{column}{0.56\textwidth}
+        \begin{column}{0.54\textwidth}
             \centering
-            \includegraphics[width=\linewidth]{tablas/tablas_6.png}
+            \scriptsize
+            \resizebox{\linewidth}{!}{%
+            \begin{tabular}{lrr}
+                \toprule
+                Ventana & Coef. diff. & Efecto acum. \\
+                \midrule
+                Good News & 0.0044 & +10.14\% \\
+                Bad News & -0.0018 & -11.21\% \\
+                \bottomrule
+            \end{tabular}}
+            
+            \vspace{0.15cm}
+            \tiny Coeficientes del portafolio diferencial Basque - non-Basque.
         \end{column}
     \end{columns}
 \end{frame}
@@ -352,12 +392,12 @@
 
 \begin{frame}{Limitaciones}
     \begin{itemize}
-        \item Es un estudio de caso: la validez externa es limitada.
-        \item La clasificaci\'on de firmas expuestas al Pa\'is Vasco depende del juicio de analistas.
-        \item Siempre existe la posibilidad de otros shocks concurrentes o desv\'ios en el contrafactual.
+        \item La objeci\'on m\'as seria es la crisis del petr\'oleo y el declive de la industria pesada en los 70: el Pa\'is Vasco estaba especialmente expuesto a ese shock.
+        \item Si el sint\'etico no replica del todo esa composici\'on sectorial, parte de la brecha podr\'ia reflejar cambio estructural y no solo terrorismo.
+        \item El control depende mucho de Catalu\~na y Madrid, y la clasificaci\'on de firmas expuestas en el event study descansa en juicio de analistas.
     \end{itemize}
     \begin{block}{Pero}
-        Justamente por eso es valioso que el paper use dos fuentes de evidencia tan distintas.
+        La defensa del paper es que combina dos fuentes de evidencia distintas, aunque ninguna elimina por completo esas dudas.
     \end{block}
 \end{frame}
 
