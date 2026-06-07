@@ -5,6 +5,11 @@
 \usepackage{amsmath,xcolor,booktabs,graphicx,multicol}
 \usepackage{Ritsumeikan}
 
+\definecolor{titleblue}{RGB}{34,53,88}
+\definecolor{accentred}{RGB}{177,44,67}
+\definecolor{subtlegray}{RGB}{103,107,113}
+\definecolor{linegray}{RGB}{220,222,226}
+
 \title[Costs of Conflict]{The Economic Costs of Conflict:\\A Case Study of the Basque Country}
 \subtitle{Abadie, A., \& Gardeazabal, J. (2003) -- \textit{AER}}
 \author[Maykol Medrano]{Maykol Medrano}
@@ -19,25 +24,31 @@
 \begin{document}
 
 \begin{frame}[plain]
-    \vspace{0.8cm}
-    {\raggedright\usebeamerfont{title}\LARGE\color{ritsumeikan}\inserttitle\par}
-    \vspace{0.3cm}
-    {\raggedright\large\itshape\insertsubtitle\par}
-    \vspace{0.35cm}
-
-    {\color{ritsumeikan}\rule{0.88\linewidth}{1.1pt}\par}
-
-    \vspace{1.25cm}
-    {\normalsize\textbf{\insertauthor}\par}
-    \vspace{0.2cm}
-    {\small\insertdate\par}
+    \vspace*{0.95cm}
+    {\raggedright\fontsize{18}{22}\selectfont\color{accentred}The Economic Costs of Conflict:\par}
+    \vspace{0.15cm}
+    {\raggedright\fontsize{31}{35}\selectfont\bfseries\color{titleblue}A Case Study of the\\Basque Country\par}
+    \vspace{0.45cm}
+    {\raggedright\fontsize{16}{19}\selectfont\itshape\color{subtlegray}Abadie, A., \& Gardeazabal, J. (2003) -- American Economic Review\par}
 
     \vfill
+    {\color{linegray}\rule{0.96\linewidth}{0.6pt}\par}
+    \vspace{0.38cm}
 
-    {\small\insertinstitute\par}
-
-    \vspace{0.35cm}
-    {\footnotesize\courseinfo\par}
+    \begin{columns}[T,totalwidth=\textwidth]
+        \begin{column}{0.42\textwidth}
+            {\color{titleblue}\fontsize{18}{21}\selectfont\bfseries\insertauthor\par}
+            \vspace{0.08cm}
+            {\color{subtlegray}\fontsize{14}{17}\selectfont\insertdate\par}
+        \end{column}
+        \begin{column}{0.54\textwidth}
+            {\raggedleft\color{titleblue}\fontsize{16}{19}\selectfont\bfseries Instituto de Econom\'ia\par}
+            {\raggedleft\color{titleblue}\fontsize{16}{19}\selectfont\bfseries Pontificia Universidad Cat\'olica de Chile\par}
+            \vspace{0.08cm}
+            {\raggedleft\color{subtlegray}\fontsize{13}{16}\selectfont T\'opicos de Microeconometr\'ia Aplicada y m\'etodos\par}
+            {\raggedleft\color{subtlegray}\fontsize{13}{16}\selectfont cuasiexperimentales\par}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Outline}
