@@ -1,34 +1,51 @@
-\documentclass{beamer}
+\documentclass[aspectratio=1610]{beamer}
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
 
 \usepackage{amsmath,xcolor,booktabs,graphicx,multicol}
+\usepackage{newtxtext,newtxmath}
 \usepackage{Ritsumeikan}
-
-% Keep only the manual table-of-contents slide.
-\AtBeginSection[]{}
-\AtBeginSubsection[]{}
+\usefonttheme{serif}
 
 \title[Costs of Conflict]{The Economic Costs of Conflict:\\A Case Study of the Basque Country}
-\subtitle{Presentaci\'on para clase}
-\author[Tu nombre]{Tu nombre}
-\institute[Clase]{Clase / Universidad}
-\date{Junio de 2026}
+\subtitle{Abadie, A., \& Gardeazabal, J. (2003) -- \textit{AER}}
+\author[Maykol Medrano]{Maykol Medrano}
+\institute[Instituto de Economia UC]{Instituto de Econom\'ia\\Pontificia Universidad Cat\'olica de Chile\\[0.25cm]Curso: T\'opicos de Microeconometr\'ia Aplicada\\y m\'etodos cuasiexperimentales}
+\date{7 de abril, 2026}
 
 \begin{document}
 
-\begin{frame}
-    \titlepage
-    \begin{figure}[htpb]
-        \begin{center}
-            \includegraphics[keepaspectratio, height=1.4cm]{pic/Ritsumeikan_University_Logo.png}
-        \end{center}
-    \end{figure}
+\begin{frame}[plain]
+    \vspace{0.9cm}
+
+    {\usebeamerfont{title}\LARGE\color{ritsumeikan}\inserttitle\par}
+    \vspace{0.25cm}
+    {\large\itshape\insertsubtitle\par}
+    \vspace{0.35cm}
+
+    {\color{ritsumeikan}\rule{0.92\linewidth}{1.1pt}\par}
+    \vspace{0.7cm}
+
+    {\large\textbf{\insertauthor}\par}
+    \vspace{0.3cm}
+    {\normalsize\insertinstitute\par}
+    \vspace{0.45cm}
+    {\normalsize\insertdate\par}
 \end{frame}
 
-\begin{frame}{\'Indice}
-    \tableofcontents[hideallsubsections]
+\begin{frame}{Outline}
+    \vspace{0.2cm}
+    \footnotesize
+    \tableofcontents
 \end{frame}
+
+\AtBeginSection[]
+{
+    \begin{frame}{Outline}
+        \footnotesize
+        \tableofcontents[currentsection]
+    \end{frame}
+}
 
 \section{Introducci\'on}
 
