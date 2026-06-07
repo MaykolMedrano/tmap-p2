@@ -183,6 +183,7 @@
     \end{equation*}
     \begin{itemize}
         \item La idea no es estimar una regresi\'on, sino elegir pesos para que el Pa\'is Vasco sint\'etico se parezca lo m\'aximo posible al real antes del terrorismo.
+        \item La matriz $V$ fija cu\'anta importancia recibe cada predictor pretratamiento en esa comparaci\'on.
         \item Una vez elegidos esos pesos, el contrafactual sale de seguir la trayectoria del sint\'etico despu\'es del shock.
     \end{itemize}
 \end{frame}
@@ -299,10 +300,9 @@
         R_{jt} = \alpha_j + \beta_1 R_{mt} + \beta_2 SMB_t + \beta_3 HML_t + \gamma_1 GoodNews_t + \gamma_2 BadNews_t + \varepsilon_{jt}
     \end{equation*}
     \begin{itemize}
-        \item Los factores de Fama-French limpian movimientos normales del mercado y dejan el foco en retornos anormales.
-        \item $\gamma_1$ mide si las buenas noticias sobre la tregua elevan el retorno anormal de las firmas expuestas.
-        \item $\gamma_2$ mide si las malas noticias sobre el fin del proceso de paz reducen ese retorno relativo.
-        \item Esta parte es \'util porque revisa si el mercado llega a la misma conclusi\'on que ya suger\'ia el control sint\'etico.
+        \item $R_m$, $SMB$ y $HML$ controlan por movimientos normales del mercado y diferencias de riesgo.
+        \item $\gamma_1$ captura el retorno anormal durante las buenas noticias sobre la tregua.
+        \item $\gamma_2$ captura el retorno anormal durante las malas noticias sobre el fin del proceso de paz.
     \end{itemize}
 \end{frame}
 
