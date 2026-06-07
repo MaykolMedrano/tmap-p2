@@ -71,7 +71,7 @@
     \begin{itemize}
         \item \textquestiondown C\'omo habr\'ia evolucionado la econom\'ia del Pa\'is Vasco en ausencia de terrorismo?
         \item El gran problema es que ese contrafactual no se observa.
-        \item Por eso el paper construye comparaciones cre\'ibles usando dos estrategias complementarias.
+        \item El paper responde eso principalmente con \emph{synthetic control} y luego lo contrasta con evidencia burs\'atil complementaria.
     \end{itemize}
     \begin{alertblock}{Pregunta operativa}
         Si el conflicto fue costoso, deber\'iamos ver efectos tanto en PIB regional como en valoraci\'on burs\'atil.
@@ -145,7 +145,7 @@
         \item La tregua de 1998--1999 aparece como evidencia complementaria, usando un experimento natural en el mercado burs\'atil.
     \end{itemize}
     \begin{block}{Idea}
-        La narrativa del paper descansa sobre el control sint\'etico; el event study refuerza esa interpretaci\'on causal desde otra fuente de datos.
+        Si hubiera que quedarse con una sola pieza del paper, deber\'ia ser esta: el control sint\'etico produce el contrafactual central; el event study solo ayuda a validarlo desde otro margen.
     \end{block}
 \end{frame}
 
@@ -173,11 +173,25 @@
     \end{block}
 \end{frame}
 
+\begin{frame}{Control sint\'etico: formulaci\'on m\'inima}
+    \begin{equation*}
+        W^*=\arg\min_W \left(X_1-X_0W\right)'V\left(X_1-X_0W\right)
+    \end{equation*}
+    \begin{equation*}
+        \text{s.a. } w_j \geq 0 \quad \text{y} \quad \sum_{j=1}^{J} w_j = 1,
+        \qquad Y_1^* = Y_0W^*
+    \end{equation*}
+    \begin{itemize}
+        \item La idea no es estimar una regresi\'on, sino elegir pesos para que el Pa\'is Vasco sint\'etico se parezca lo m\'aximo posible al real antes del terrorismo.
+        \item Una vez elegidos esos pesos, el contrafactual sale de seguir la trayectoria del sint\'etico despu\'es del shock.
+    \end{itemize}
+\end{frame}
+
 \begin{frame}{Por qu\'e esta estrategia es cre\'ible}
     \begin{itemize}
         \item Antes de 1975, el Pa\'is Vasco real y el sint\'etico muestran trayectorias muy parecidas.
         \item Eso sugiere que el contrafactual reproduce bien la din\'amica previa del ingreso.
-        \item Si el ajuste pretratamiento es bueno, la divergencia posterior gana credibilidad causal.
+        \item Los pesos son observables y la comparaci\'on con placebo ayuda a defender que la divergencia posterior no es un artificio.
     \end{itemize}
 \end{frame}
 
@@ -216,7 +230,7 @@
     \small La ampliaci\'on de la brecha coincide con los per\'iodos de mayor actividad terrorista.
 \end{frame}
 
-\begin{frame}{Figura 3: respuesta dinámica}
+\begin{frame}{Figura 3: respuesta din\'amica}
     \centering
     \includegraphics[width=0.64\linewidth]{tablas/figura_3.png}
     
@@ -251,13 +265,13 @@
     \end{itemize}
 \end{frame}
 
-\section{Estrategia 2: tregua y event study}
+\section{Evidencia complementaria: tregua y event study}
 
 \begin{frame}{Transici\'on a la segunda estrategia}
     \begin{itemize}
         \item Hasta aqu\'i, la evidencia central del paper viene del control sint\'etico y del efecto sobre PIB regional.
         \item La segunda parte no reemplaza esa historia: la complementa con reacciones de mercado ante nueva informaci\'on sobre el conflicto.
-        \item La idea es usar la tregua de 1998--1999 como validaci\'on adicional.
+        \item La idea es usar la tregua de 1998--1999 como validaci\'on adicional, no como el resultado principal del paper.
     \end{itemize}
 \end{frame}
 
@@ -280,15 +294,16 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Por qu\'e usar un modelo de factores}
+\begin{frame}{Event study: ecuaci\'on e interpretaci\'on}
+    \begin{equation*}
+        R_{jt} = \alpha_j + \beta_1 R_{mt} + \beta_2 SMB_t + \beta_3 HML_t + \gamma_1 GoodNews_t + \gamma_2 BadNews_t + \varepsilon_{jt}
+    \end{equation*}
     \begin{itemize}
-        \item No basta ver si un portafolio subi\'o o baj\'o.
-        \item Hay que descontar movimientos normales del mercado y diferencias de riesgo entre firmas.
-        \item Por eso usan un modelo de tres factores de Fama-French para estimar retornos anormales.
+        \item Los factores de Fama-French limpian movimientos normales del mercado y dejan el foco en retornos anormales.
+        \item $\gamma_1$ mide si las buenas noticias sobre la tregua elevan el retorno anormal de las firmas expuestas.
+        \item $\gamma_2$ mide si las malas noticias sobre el fin del proceso de paz reducen ese retorno relativo.
+        \item Esta parte es \'util porque revisa si el mercado llega a la misma conclusi\'on que ya suger\'ia el control sint\'etico.
     \end{itemize}
-    \begin{block}{Intuici\'on}
-        Lo importante no es el retorno observado, sino la parte del retorno que no se explica por riesgo sistem\'atico.
-    \end{block}
 \end{frame}
 
 \begin{frame}{Resultado principal 2}
@@ -314,7 +329,7 @@
                 \item Good News: retorno relativo de `+10.14\%`.
                 \item Bad News: retorno relativo de `-11.21\%`.
                 \item Los efectos son econ\'omicamente grandes.
-                \item Cuesta explicar estas diferencias sin aceptar que el conflicto afectaba expectativas de ganancias futuras.
+                \item Refuerzan la historia principal: el conflicto afectaba valor presente de ganancias futuras.
             \end{itemize}
         \end{column}
         \begin{column}{0.56\textwidth}
@@ -324,23 +339,13 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Event study: ecuaci\'on e interpretaci\'on}
-    \begin{equation*}
-        R_{jt} = \alpha_j + \beta_1 R_{mt} + \beta_2 SMB_t + \beta_3 HML_t + \gamma_1 GoodNews_t + \gamma_2 BadNews_t + \varepsilon_{jt}
-    \end{equation*}
-    \begin{itemize}
-        \item $\gamma_1$ mide si las buenas noticias sobre la tregua elevan el retorno anormal de las firmas expuestas.
-        \item $\gamma_2$ mide si las malas noticias sobre el fin del proceso de paz reducen ese retorno relativo.
-        \item La interpretaci\'on requiere que el mercado incorpore r\'apidamente la informaci\'on y que las firmas expuestas reaccionen de forma diferencial por su v\'inculo con el Pa\'is Vasco.
-    \end{itemize}
-\end{frame}
-
 \section{Evaluaci\'on general}
 
 \begin{frame}{Aporte del paper}
     \begin{itemize}
         \item Aporta evidencia causal m\'as convincente que una simple correlaci\'on entre conflicto y menor crecimiento.
         \item Su contribuci\'on m\'as recordada es mostrar c\'omo usar \emph{synthetic control} para estudiar shocks regionales.
+        \item El verdadero aporte metodol\'ogico est\'a en volver transparente el contrafactual: qu\'e regiones lo forman, con qu\'e pesos y por qu\'e la comparaci\'on es cre\'ible.
         \item El event study fortalece el argumento, pero el coraz\'on del paper es la construcci\'on del contrafactual sint\'etico.
     \end{itemize}
 \end{frame}
@@ -349,7 +354,7 @@
     \begin{itemize}
         \item Es un estudio de caso: la validez externa es limitada.
         \item La clasificaci\'on de firmas expuestas al Pa\'is Vasco depende del juicio de analistas.
-        \item Siempre existe la posibilidad de otros shocks concurrentes o desvíos en el contrafactual.
+        \item Siempre existe la posibilidad de otros shocks concurrentes o desv\'ios en el contrafactual.
     \end{itemize}
     \begin{block}{Pero}
         Justamente por eso es valioso que el paper use dos fuentes de evidencia tan distintas.
