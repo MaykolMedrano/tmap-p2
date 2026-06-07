@@ -9,7 +9,11 @@
 \subtitle{Abadie, A., \& Gardeazabal, J. (2003) -- \textit{AER}}
 \author[Maykol Medrano]{Maykol Medrano}
 \institute[Instituto de Economia UC]{Instituto de Econom\'ia\\Pontificia Universidad Cat\'olica de Chile}
-\date{7 de abril, 2026}
+\newcommand{\fechaautomatica}{%
+    \number\day\ de
+    \ifcase\month\or enero\or febrero\or marzo\or abril\or mayo\or junio\or julio\or agosto\or septiembre\or octubre\or noviembre\or diciembre\fi
+    \ de \number\year}
+\date{\fechaautomatica}
 \newcommand{\courseinfo}{Curso: T\'opicos de Microeconometr\'ia Aplicada y m\'etodos cuasiexperimentales}
 
 \begin{document}
@@ -139,14 +143,14 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Estructura del paper}
-    \begin{enumerate}
-        \item Construir un contrafactual regional mediante \emph{synthetic control}.
-        \item Usar la tregua de 1998--1999 como experimento natural en el mercado burs\'atil.
-    \end{enumerate}
-    \vspace{0.3cm}
-    \begin{block}{Ventaja}
-        Las dos partes del paper atacan la misma pregunta desde datos y horizontes temporales distintos.
+\begin{frame}{Estrategia de identificaci\'on}
+    \begin{itemize}
+        \item El paper usa dos dise\~nos complementarios para identificar el costo econ\'omico del conflicto.
+        \item Primero, construye un contrafactual regional con \emph{synthetic control} para medir el efecto de largo plazo sobre el PIB.
+        \item Segundo, usa la tregua de 1998--1999 como experimento natural para medir reacciones de corto plazo en el mercado burs\'atil.
+    \end{itemize}
+    \begin{block}{Idea}
+        Si ambas estrategias apuntan en la misma direcci\'on, la interpretaci\'on causal se vuelve m\'as cre\'ible.
     \end{block}
 \end{frame}
 
@@ -322,11 +326,14 @@
     \end{columns}
 \end{frame}
 
-\begin{frame}{Qu\'e nos dice esta segunda estrategia}
+\begin{frame}{Event study: ecuaci\'on e interpretaci\'on}
+    \begin{equation*}
+        R_{jt} = \alpha_j + \beta_1 R_{mt} + \beta_2 SMB_t + \beta_3 HML_t + \gamma_1 GoodNews_t + \gamma_2 BadNews_t + \varepsilon_{jt}
+    \end{equation*}
     \begin{itemize}
-        \item El mercado burs\'atil reacciona a noticias sobre paz o reanudaci\'on del conflicto.
-        \item Eso refuerza la interpretaci\'on de que el conflicto ten\'ia consecuencias econ\'omicas reales.
-        \item Adem\'as, ofrece evidencia de corto plazo que complementa la evidencia de largo plazo del synthetic control.
+        \item $\gamma_1$ mide si las buenas noticias sobre la tregua elevan el retorno anormal de las firmas expuestas.
+        \item $\gamma_2$ mide si las malas noticias sobre el fin del proceso de paz reducen ese retorno relativo.
+        \item La interpretaci\'on requiere que el mercado incorpore r\'apidamente la informaci\'on y que las firmas expuestas reaccionen de forma diferencial por su v\'inculo con el Pa\'is Vasco.
     \end{itemize}
 \end{frame}
 
