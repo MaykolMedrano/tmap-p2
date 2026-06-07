@@ -82,10 +82,10 @@
     \begin{itemize}
         \item El Pa\'is Vasco era una regi\'on relativamente rica antes del conflicto.
         \item Eso evita la lectura simple de ``violencia porque ya era una econom\'ia pobre''.
-        \item Adem\'as, el paper combina datos regionales de largo plazo con evidencia financiera de alta frecuencia.
+        \item Adem\'as, el paper se volvi\'o una referencia cl\'asica por la l\'ogica del \emph{synthetic control}.
     \end{itemize}
     \begin{block}{Aporte}
-        El trabajo se volvi\'o cl\'asico porque ilustra de forma muy clara la l\'ogica del \emph{synthetic control}.
+        M\'as que por la parte burs\'atil, este paper es recordado porque muestra c\'omo construir un contrafactual cre\'ible con control sint\'etico.
     \end{block}
 \end{frame}
 
@@ -141,15 +141,15 @@
 \begin{frame}{Estrategia de identificaci\'on}
     \begin{itemize}
         \item El paper usa dos dise\~nos complementarios para identificar el costo econ\'omico del conflicto.
-        \item Primero, construye un contrafactual regional con \emph{synthetic control} para medir el efecto de largo plazo sobre el PIB.
-        \item Segundo, usa la tregua de 1998--1999 como experimento natural para medir reacciones de corto plazo en el mercado burs\'atil.
+        \item El dise\~no principal es el \emph{synthetic control}, que construye un contrafactual regional para medir el efecto de largo plazo sobre el PIB.
+        \item La tregua de 1998--1999 aparece como evidencia complementaria, usando un experimento natural en el mercado burs\'atil.
     \end{itemize}
     \begin{block}{Idea}
-        Si ambas estrategias apuntan en la misma direcci\'on, la interpretaci\'on causal se vuelve m\'as cre\'ible.
+        La narrativa del paper descansa sobre el control sint\'etico; el event study refuerza esa interpretaci\'on causal desde otra fuente de datos.
     \end{block}
 \end{frame}
 
-\section{Estrategia 1: Synthetic Control}
+\section{Tema central: Synthetic Control}
 
 \begin{frame}{Estrategia emp\'irica 1}
     \begin{itemize}
@@ -157,6 +157,9 @@
         \item La intuici\'on es simple: buscar regiones que se parezcan al Pa\'is Vasco antes del terrorismo.
         \item Si luego las trayectorias divergen, esa brecha sugiere un costo econ\'omico del conflicto.
     \end{itemize}
+\begin{block}{Punto central de la presentaci\'on}
+    Esta es la parte m\'as importante del paper y la que conviene entender mejor: c\'omo se construye el contrafactual y por qu\'e es cre\'ible.
+\end{block}
 \end{frame}
 
 \begin{frame}{C\'omo se arma el control sint\'etico}
@@ -240,11 +243,11 @@
     \small El placebo no reproduce una brecha del mismo tipo, lo que hace m\'as cre\'ible la lectura causal para el Pa\'is Vasco.
 \end{frame}
 
-\begin{frame}{Discusi\'on de la primera estrategia}
+\begin{frame}{Por qu\'e esta parte hizo famoso al paper}
     \begin{itemize}
-        \item La evidencia sugiere que el conflicto afect\'o el desempe\~no econ\'omico regional.
-        \item Aun as\'i, siempre quedan dudas sobre shocks simult\'aneos y spillovers hacia otras regiones.
-        \item Por eso es importante que el paper no se quede solo con esta primera estrategia.
+        \item El m\'etodo obliga a mostrar c\'omo se arma el contrafactual, en vez de esconderlo en una regresi\'on.
+        \item El buen ajuste pretratamiento hace visible por qu\'e la comparaci\'on posterior es informativa.
+        \item La l\'ogica de placebos y trayectorias comparadas vuelve la identificaci\'on f\'acil de explicar y de defender.
     \end{itemize}
 \end{frame}
 
@@ -252,9 +255,9 @@
 
 \begin{frame}{Transici\'on a la segunda estrategia}
     \begin{itemize}
-        \item La primera parte mira efectos de largo plazo sobre PIB regional.
-        \item La segunda parte mira reacciones de mercado ante nueva informaci\'on sobre el conflicto.
-        \item La idea es usar la tregua de 1998--1999 como experimento natural.
+        \item Hasta aqu\'i, la evidencia central del paper viene del control sint\'etico y del efecto sobre PIB regional.
+        \item La segunda parte no reemplaza esa historia: la complementa con reacciones de mercado ante nueva informaci\'on sobre el conflicto.
+        \item La idea es usar la tregua de 1998--1999 como validaci\'on adicional.
     \end{itemize}
 \end{frame}
 
@@ -337,8 +340,8 @@
 \begin{frame}{Aporte del paper}
     \begin{itemize}
         \item Aporta evidencia causal m\'as convincente que una simple correlaci\'on entre conflicto y menor crecimiento.
-        \item Combina dos estrategias emp\'iricas distintas que apuntan en la misma direcci\'on.
-        \item Ayud\'o a instalar el \emph{synthetic control} como herramienta para estudiar shocks regionales.
+        \item Su contribuci\'on m\'as recordada es mostrar c\'omo usar \emph{synthetic control} para estudiar shocks regionales.
+        \item El event study fortalece el argumento, pero el coraz\'on del paper es la construcci\'on del contrafactual sint\'etico.
     \end{itemize}
 \end{frame}
 
@@ -358,11 +361,11 @@
 \begin{frame}{Conclusiones}
     \begin{itemize}
         \item El conflicto en el Pa\'is Vasco tuvo costos econ\'omicos relevantes y persistentes.
-        \item El paper encuentra una brecha de aproximadamente 10\% en PIB per c\'apita respecto del contrafactual.
-        \item La evidencia burs\'atil muestra que el mercado internalizaba r\'apidamente las noticias sobre tregua o reanudaci\'on del conflicto.
+        \item El resultado central del paper es una brecha de aproximadamente 10\% en PIB per c\'apita respecto del contrafactual sint\'etico.
+        \item La evidencia burs\'atil sirve como respaldo adicional a esa historia principal.
     \end{itemize}
     \begin{alertblock}{Mensaje final}
-        El conflicto pol\'itico no solo tiene costos humanos y sociales; tambi\'en puede dejar huellas econ\'omicas medibles.
+        Si hay una idea para quedarse de esta presentaci\'on, es c\'omo el \emph{synthetic control} permite hacer visible un contrafactual cre\'ible.
     \end{alertblock}
 \end{frame}
 
