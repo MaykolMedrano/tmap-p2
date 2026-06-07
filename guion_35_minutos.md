@@ -6,11 +6,11 @@ Basado en la presentaci\'on actual de [slide.tex](C:/Users/horio/OneDrive/Deskto
 
 La narrativa de la exposici\'on tiene que ser esta:
 
-1. El paper quiere medir el costo econ\'omico del conflicto vasco.
+1. Los autores buscan medir el costo econ\'omico del conflicto vasco.
 2. El problema es que no existe un contrafactual observable y Espa\~na no sirve como comparaci\'on simple.
 3. La contribuci\'on central es construir un contrafactual cre\'ible con `synthetic control`.
-4. El resultado principal es una brecha persistente de alrededor de `10%` en PIB per c\'apita.
-5. El `event study` de la tregua de `1998--1999` no reemplaza al control sint\'etico; lo complementa.
+4. El resultado principal se presenta como una brecha persistente de alrededor de `10%` en PIB per c\'apita.
+5. El `event study` de la tregua de `1998--1999` no reemplaza al control sint\'etico; aporta evidencia complementaria.
 6. El paper es fuerte, pero no inmune a cr\'iticas: estructura industrial, crisis del petr\'oleo y credibilidad del contrafactual.
 
 ## Distribuci\'on del tiempo
@@ -70,7 +70,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> Esta diapositiva sirve para mostrar que el shock est\'a muy concentrado. Seg\'un la tabla, cerca de `69%` de las muertes causadas por ETA ocurrieron en el Pa\'is Vasco, y en t\'erminos per c\'apita la tasa fue aproximadamente `37` veces mayor que en el resto de Espa\~na. Esto es importante porque sugiere que estamos frente a un shock territorialmente localizado.
+> Esta diapositiva sirve para mostrar que el shock est\'a muy concentrado. Seg\'un la tabla, cerca de `69%` de las muertes causadas por ETA ocurrieron en el Pa\'is Vasco, y en t\'erminos per c\'apita la tasa fue aproximadamente `37` veces mayor que en el resto de Espa\~na. Eso sugiere que estamos frente a un shock territorialmente localizado.
 
 ### 8. Por qu\'e no basta comparar con el resto de Espa\~na
 `6:30--7:30`
@@ -91,7 +91,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> La idea del control sint\'etico es conceptualmente simple. Se construye un “Pa\'is Vasco sint\'etico” como una combinaci\'on de otras regiones espa\~nolas que se parezcan al Pa\'is Vasco antes del terrorismo. Si antes del shock ambas trayectorias son similares y luego divergen, esa divergencia se interpreta como evidencia de un costo econ\'omico del conflicto.
+> La idea del control sint\'etico es conceptualmente simple. Se construye un "Pa\'is Vasco sint\'etico" como una combinaci\'on de otras regiones espa\~nolas que se parezcan al Pa\'is Vasco antes del terrorismo. Si antes del shock ambas trayectorias son similares y luego divergen, los autores interpretan esa divergencia como evidencia consistente con un costo econ\'omico del conflicto.
 
 ### 11. C\'omo se arma el control sint\'etico
 `9:30--11:00`
@@ -100,7 +100,7 @@ Guion sugerido:
 
 > Para armar el sint\'etico, los autores usan predictores pretratamiento asociados al potencial de crecimiento: PIB per c\'apita, raz\'on de inversi\'on, densidad poblacional, estructura sectorial y capital humano. El algoritmo elige pesos no negativos sobre otras regiones para minimizar la distancia respecto del Pa\'is Vasco. En la pr\'actica, los pesos \'optimos recaen sobre todo en `Catalu\~na` y `Madrid`: aproximadamente `0.8508` y `0.1492`, respectivamente.
 
-> Esto es razonable porque ambas regiones compart\'ian con el Pa\'is Vasco altos niveles de ingreso y urbanizaci\'on. Pero ya aqu\'i aparece una limitaci\'on: el ajuste no es perfecto, especialmente en la intensidad industrial, porque el Pa\'is Vasco era la regi\'on m\'as industrializada de todas.
+> Esto parece razonable porque ambas regiones compart\'ian con el Pa\'is Vasco altos niveles de ingreso y urbanizaci\'on. Pero ya aqu\'i aparece una limitaci\'on: el ajuste no es perfecto, especialmente en la intensidad industrial, porque el Pa\'is Vasco era la regi\'on m\'as industrializada de todas.
 
 ### 12. Control sint\'etico: formulaci\'on m\'inima
 `11:00--12:30`
@@ -123,14 +123,14 @@ Guion sugerido:
 
 Guion sugerido:
 
-> El hallazgo principal es que, desde mediados de los 70, el PIB per c\'apita del Pa\'is Vasco cae por debajo del sint\'etico. La brecha alcanza valores cercanos a `12%` y, en promedio, ronda `10%` durante los 80 y 90. Esa es la estimaci\'on m\'as citada del paper.
+> Los autores estiman que, desde mediados de los 70, el PIB per c\'apita del Pa\'is Vasco cae por debajo del sint\'etico. La brecha alcanza valores cercanos a `12%` y, en promedio, ronda `10%` durante los 80 y 90. Esa es la estimaci\'on m\'as citada del paper.
 
 ### 15. Figura 1: el resultado central
 `14:30--16:00`
 
 Guion sugerido:
 
-> Esta es probablemente la figura m\'as importante de toda la presentaci\'on. Hasta `1975`, el Pa\'is Vasco real y el sint\'etico se mueven de forma muy parecida. Desde `1975`, cuando la actividad terrorista pasa a ser un fen\'omeno de gran escala, ambas trayectorias divergen. Esa es justamente la visualizaci\'on del efecto estimado.
+> Esta es probablemente la figura m\'as importante de toda la presentaci\'on. Hasta `1975`, el Pa\'is Vasco real y el sint\'etico se mueven de forma muy parecida. Desde `1975`, cuando la actividad terrorista pasa a ser un fen\'omeno de gran escala, ambas trayectorias divergen. La figura sugiere visualmente el efecto que los autores estiman.
 
 > Si quieres resumir esta figura en una frase: antes del shock, las trayectorias coinciden; despu\'es, se abre una brecha persistente.
 
@@ -139,7 +139,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> El siguiente paso del paper es ver si la brecha de PIB se mueve junto con la intensidad de la violencia. Y eso es lo que muestra esta figura: cuando la actividad terrorista aumenta, la brecha tiende a ampliarse. Esto no prueba por s\'i solo causalidad, pero s\'i refuerza la interpretaci\'on de que la brecha no es un artefacto puramente mec\'anico del m\'etodo.
+> El siguiente paso del paper es ver si la brecha de PIB se mueve junto con la intensidad de la violencia. Y la figura sugiere exactamente ese patr\'on: cuando la actividad terrorista aumenta, la brecha tiende a ampliarse. Esto no prueba por s\'i solo causalidad, pero s\'i hace m\'as plausible la interpretaci\'on de que la brecha no es un artefacto puramente mec\'anico del m\'etodo.
 
 ### 17. Figura 3: respuesta din\'amica
 `17:30--18:30`
@@ -160,7 +160,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> El resultado placebo no reproduce una brecha prolongada como la del Pa\'is Vasco. Eso fortalece la interpretaci\'on causal del ejercicio principal. Al mismo tiempo, el paper reconoce que Catalu\~na tuvo un desempe\~no especialmente fuerte en los 90, asociado entre otras cosas a los Juegos Ol\'impicos de Barcelona de `1992`, y eso incluso podr\'ia exagerar un poco la brecha del Pa\'is Vasco en la parte final de la muestra.
+> El resultado placebo no reproduce una brecha prolongada como la del Pa\'is Vasco. Eso hace m\'as plausible la interpretaci\'on causal del ejercicio principal. Al mismo tiempo, el paper reconoce que Catalu\~na tuvo un desempe\~no especialmente fuerte en los 90, asociado entre otras cosas a los Juegos Ol\'impicos de Barcelona de `1992`, y eso incluso podr\'ia exagerar un poco la brecha del Pa\'is Vasco en la parte final de la muestra.
 
 ### 20. Fortalezas y dudas de esta estrategia
 `20:30--22:00`
@@ -183,14 +183,14 @@ Guion sugerido:
 
 Guion sugerido:
 
-> ETA declara una tregua en septiembre de `1998` y la rompe en noviembre de `1999`. La idea del paper es que la tregua genera un experimento natural. Si el conflicto realmente da\~naba la econom\'ia vasca, entonces las firmas expuestas al Pa\'is Vasco deber\'ian apreciarse cuando la tregua se vuelve cre\'ible y caer cuando el proceso de paz colapsa.
+> ETA declara una tregua en septiembre de `1998` y la rompe en noviembre de `1999`. La idea del paper es que la tregua puede leerse como un experimento natural. Si el conflicto realmente da\~naba la econom\'ia vasca, entonces uno esperar\'ia que las firmas expuestas al Pa\'is Vasco se apreciaran relativamente cuando la tregua se vuelve cre\'ible y cayeran cuando el proceso de paz colapsa.
 
 ### 23. Dise\~no del event study
 `23:30--24:30`
 
 Guion sugerido:
 
-> El dise\~no compara un portafolio de firmas “vascas”, es decir, con exposici\'on econ\'omica importante al Pa\'is Vasco, con un portafolio de firmas no vascas. Un punto delicado del paper es justamente esa clasificaci\'on, porque no se basa solo en direcci\'on legal, sino en el juicio de analistas de mercado sobre exposici\'on econ\'omica real.
+> El dise\~no compara un portafolio de firmas "vascas", es decir, con exposici\'on econ\'omica importante al Pa\'is Vasco, con un portafolio de firmas no vascas. Un punto delicado del paper es justamente esa clasificaci\'on, porque no se basa solo en direcci\'on legal, sino en el juicio de analistas de mercado sobre exposici\'on econ\'omica real.
 
 ### 24. Event study: ecuaci\'on e interpretaci\'on
 `24:30--26:00`
@@ -206,14 +206,14 @@ Guion sugerido:
 
 Guion sugerido:
 
-> El patr\'on es el esperado. Las firmas expuestas al Pa\'is Vasco tienen mejor desempe\~no relativo durante las buenas noticias y peor desempe\~no relativo durante las malas noticias. Eso es consistente con la idea de que el mercado valora econ\'omicamente la paz.
+> Los resultados van en la direcci\'on esperada. Las firmas expuestas al Pa\'is Vasco muestran mejor desempe\~no relativo durante las buenas noticias y peor desempe\~no relativo durante las malas noticias. Eso es consistente con la idea de que el mercado valora econ\'omicamente la paz.
 
 ### 26. Figura 6: retornos anormales acumulados
 `27:00--28:30`
 
 Guion sugerido:
 
-> Esta figura resume visualmente esa historia. Durante la tregua, el portafolio vasco supera al no vasco a medida que la paz se vuelve cre\'ible. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que muestra que el mercado no reacciona solo al anuncio inicial, sino a la evoluci\'on de la credibilidad del proceso.
+> Esta figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve m\'as cre\'ible. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evoluci\'on de la credibilidad del proceso.
 
 ### 27. Magnitud de los efectos burs\'atiles
 `28:30--30:00`
@@ -234,7 +234,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> La limitaci\'on m\'as importante es que el control sint\'etico no reproduce perfectamente la estructura industrial del Pa\'is Vasco, justo en un contexto de crisis industrial y crisis del petr\'oleo. Entonces, parte de la brecha podr\'ia recoger algo m\'as que terrorismo.
+> La limitaci\'on m\'as importante es que el control sint\'etico no reproduce perfectamente la estructura industrial del Pa\'is Vasco, justo en un contexto de crisis industrial y crisis del petr\'oleo. Entonces, parte de la brecha podr\'ia estar recogiendo algo m\'as que terrorismo.
 
 > Una segunda limitaci\'on es que el ejercicio burs\'atil depende de una clasificaci\'on no totalmente objetiva de firmas vascas y no vascas. Y una tercera es la validez externa: es un caso muy espec\'ifico, con una historia pol\'itica e institucional muy particular.
 
@@ -245,7 +245,7 @@ Guion sugerido:
 
 > Si tuviera que resumir el paper en una sola idea, dir\'ia lo siguiente: la contribuci\'on central no es solo mostrar que ETA fue costosa, sino hacer visible un contrafactual razonable. El `synthetic control` permite comparar al Pa\'is Vasco con una regi\'on artificial cre\'ible, y esa comparaci\'on sugiere una p\'erdida persistente de alrededor de `10%` en PIB per c\'apita.
 
-> La evidencia de la tregua no reemplaza ese hallazgo, pero s\'i lo complementa: cuando la paz parece cre\'ible, las firmas expuestas al Pa\'is Vasco ganan valor; cuando la tregua colapsa, lo pierden.
+> La evidencia de la tregua no reemplaza ese hallazgo, pero s\'i lo complementa: cuando la paz parece cre\'ible, las firmas expuestas al Pa\'is Vasco tienden a valorizarse relativamente; cuando la tregua colapsa, registran p\'erdidas relativas.
 
 ### 31. Referencia
 `34:30--35:00`
@@ -270,7 +270,7 @@ Guion sugerido:
 
 ### Si te preguntan por la principal debilidad
 
-> La principal debilidad es que el Pa\'is Vasco ten\'ia una estructura industrial muy particular y eso coincide con una etapa de crisis industrial y del petr\'oleo.
+> Una de las principales debilidades es que el Pa\'is Vasco ten\'ia una estructura industrial muy particular y eso coincide con una etapa de crisis industrial y del petr\'oleo.
 
 ### Si te preguntan por qu\'e el event study no es el centro del paper
 
@@ -282,4 +282,4 @@ No intentes decir todo lo que est\'a en las diapositivas. En esta presentaci\'on
 
 1. `El problema es el contrafactual.`
 2. `El synthetic control es el coraz\'on del paper.`
-3. `La tregua refuerza, pero no reemplaza, el resultado principal.`
+3. `La tregua aporta respaldo adicional, pero no reemplaza, el resultado principal.`
