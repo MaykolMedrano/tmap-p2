@@ -256,6 +256,39 @@ Guion sugerido:
 
 > Muchas gracias. Si quieren, despu\'es podemos discutir tanto la parte metodol\'ogica del `synthetic control` como las principales dudas de identificaci\'on del paper.
 
+## Transiciones entre diapositivas
+
+- `1 -> 2`: Para ordenar la exposici\'on, primero les muestro brevemente la ruta que voy a seguir.
+- `2 -> 3`: Con esa hoja de ruta clara, parto por la motivaci\'on general del paper.
+- `3 -> 4`: Una vez planteado el problema, la pregunta concreta del paper es la siguiente.
+- `4 -> 5`: Antes de entrar al m\'etodo, vale la pena explicar por qu\'e este caso es especialmente interesante.
+- `5 -> 6`: Con eso en mente, paso ahora al contexto hist\'orico del conflicto.
+- `6 -> 7`: Ese contexto se entiende mejor cuando uno mira qu\'e tan concentrada estuvo la violencia.
+- `7 -> 8`: Pero que el shock est\'e concentrado no basta; todav\'ia queda el problema de la comparaci\'on.
+- `8 -> 9`: Justamente por esa dificultad, el paper necesita una estrategia de identificaci\'on m\'as cuidadosa.
+- `9 -> 10`: De las dos estrategias, la central es el `synthetic control`, as\'i que empiezo por ah\'i.
+- `10 -> 11`: La intuici\'on ya la vimos; ahora veamos c\'omo se construye ese contrafactual en la pr\'actica.
+- `11 -> 12`: Una forma compacta de resumir ese procedimiento es con la formulaci\'on que aparece en esta diapositiva.
+- `12 -> 13`: M\'as all\'a de la notaci\'on, lo importante es por qu\'e este ejercicio resulta cre\'ible.
+- `13 -> 14`: Si aceptamos esa l\'ogica, entonces podemos mirar el resultado principal del paper.
+- `14 -> 15`: Y ese resultado se ve con mucha claridad en la figura central del art\'iculo.
+- `15 -> 16`: El paper no se queda solo con esa brecha promedio; tambi\'en estudia c\'omo cambia con la violencia.
+- `16 -> 17`: Adem\'as, los autores intentan mostrar que ese efecto no es solo contempor\'aneo, sino din\'amico.
+- `17 -> 18`: Hasta aqu\'i vimos el resultado principal; ahora viene una validaci\'on clave del m\'etodo.
+- `18 -> 19`: Esa validaci\'on se aprecia mejor cuando miramos el placebo directamente en la figura.
+- `19 -> 20`: Despu\'es de ver el placebo, conviene hacer un balance breve de fortalezas y objeciones.
+- `20 -> 21`: Hasta ahora todo gir\'o en torno al PIB regional; la segunda parte del paper cambia de margen.
+- `21 -> 22`: Esa segunda estrategia se apoya en un episodio muy concreto: la tregua de 1998--1999.
+- `22 -> 23`: A partir de esa tregua, el paper construye el dise\~no emp\'irico del `event study`.
+- `23 -> 24`: Con ese dise\~no en mente, ahora s\'i podemos mirar la ecuaci\'on y su interpretaci\'on.
+- `24 -> 25`: Una vez entendida la especificaci\'on, pasemos al resultado principal de esta segunda estrategia.
+- `25 -> 26`: Ese resultado tambi\'en se puede ver visualmente en la trayectoria de los retornos acumulados.
+- `26 -> 27`: Y adem\'as de la figura, conviene mirar la magnitud econ\'omica de esos efectos.
+- `27 -> 28`: Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
+- `28 -> 29`: Pero antes de cerrar, vale la pena dejar expl\'icitas las principales limitaciones.
+- `29 -> 30`: Teniendo presentes esas reservas, ahora s\'i cierro con la idea principal que me gustar\'ia que quedara.
+- `30 -> 31`: Con esa conclusi\'on, termino dejando la referencia del art\'iculo.
+
 ## Frases cortas para usar durante preguntas
 
 ### Si te preguntan por qu\'e no basta comparar con Espa\~na
