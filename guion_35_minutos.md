@@ -270,6 +270,8 @@ Guion sugerido:
 
 > Más precisamente, el paper parte estimando esa ecuación para dos portafolios por separado, `Basque` y `non-Basque`. Luego, en `Table 6`, agrega las dummies `Good News` y `Bad News` a esa especificación y además reporta una `difference regression` en la última columna, que resume el retorno relativo `Basque - non-Basque`.
 
+> Aquí conviene hacer una aclaración verbal muy simple: cuando el paper habla de `sesiones`, se refiere a `sesiones bursátiles`, es decir, días en que la bolsa está abierta y podemos observar retornos accionarios.
+
 > `Good News` cubre `22` sesiones bursátiles, desde que la tregua gana credibilidad hasta que el gobierno autoriza contactos con ETA. `Bad News` cubre `66` sesiones, desde el deterioro del proceso hasta el fin de la tregua. Para la exposición, conviene poner el foco en esa columna diferencial, pero sin perder de vista que el paper primero estima ambos portafolios por separado.
 
 **Transición a la siguiente diapositiva:**
