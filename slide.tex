@@ -1,6 +1,7 @@
 \documentclass[aspectratio=1610]{beamer}
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 
 \usepackage{amsmath,xcolor,booktabs,graphicx,multicol}
 \usepackage{Ritsumeikan}
@@ -8,13 +9,13 @@
 \title[Costs of Conflict]{The Economic Costs of Conflict:\\A Case Study of the Basque Country}
 \subtitle{Abadie, A., \& Gardeazabal, J. (2003) -- \textit{AER}}
 \author[Maykol Medrano]{Maykol Medrano}
-\institute[Instituto de Economia UC]{Instituto de Econom\'ia\\Pontificia Universidad Cat\'olica de Chile}
+\institute[Instituto de Economia UC]{Instituto de Economía\\Pontificia Universidad Católica de Chile}
 \newcommand{\fechaautomatica}{%
     \number\day\ de
     \ifcase\month\or enero\or febrero\or marzo\or abril\or mayo\or junio\or julio\or agosto\or septiembre\or octubre\or noviembre\or diciembre\fi
     \ de \number\year}
 \date{\fechaautomatica}
-\newcommand{\courseinfo}{T\'opicos de Microeconometr\'ia Aplicada y m\'etodos cuasiexperimentales}
+\newcommand{\courseinfo}{Tópicos de Microeconometría Aplicada y métodos cuasiexperimentales}
 
 \begin{document}
 
@@ -46,48 +47,48 @@
     \tableofcontents
 \end{frame}
 
-\section{Introducci\'on}
+\section{Introducción}
 
-\begin{frame}{Motivaci\'on}
+\begin{frame}{Motivación}
     \begin{itemize}
-        \item El paper estudia si el conflicto pol\'itico tiene costos econ\'omicos observables.
-        \item La intuici\'on general parece obvia: m\'as violencia deber\'ia da\~nar la econom\'ia.
-        \item El problema emp\'irico es m\'as dif\'icil porque la violencia no es un shock ex\'ogeno puro: puede estar ligada a tensiones previas, a la estructura industrial y al ciclo macroecon\'omico.
+        \item El paper estudia si el conflicto político tiene costos económicos observables.
+        \item La intuición general parece obvia: más violencia debería dañar la economía.
+        \item El problema empírico es más difícil porque la violencia no es un shock exógeno puro: puede estar ligada a tensiones previas, a la estructura industrial y al ciclo macroeconómico.
     \end{itemize}
     \begin{block}{Idea central}
-        El desaf\'io central es construir un contrafactual plausible cuando terrorismo y desempe\~no econ\'omico pueden estar end\'ogenamente relacionados.
+        El desafío central es construir un contrafactual plausible cuando terrorismo y desempeño económico pueden estar endógenamente relacionados.
     \end{block}
 \end{frame}
 
-\begin{frame}{Pregunta de investigaci\'on}
+\begin{frame}{Pregunta de investigación}
     \begin{itemize}
-        \item \textquestiondown C\'omo habr\'ia evolucionado la econom\'ia del Pa\'is Vasco en ausencia de terrorismo?
-        \item El gran problema es que ese contrafactual no se observa y tampoco es cre\'ible usar al resto de Espa\~na como control bruto.
-        \item El paper responde eso principalmente con \emph{synthetic control} y luego lo contrasta con evidencia burs\'atil complementaria.
+        \item ¿Cómo habría evolucionado la economía del País Vasco en ausencia de terrorismo?
+        \item El gran problema es que ese contrafactual no se observa y tampoco es creíble usar al resto de España como control bruto.
+        \item El paper responde eso principalmente con \emph{synthetic control} y luego lo contrasta con evidencia bursátil complementaria.
     \end{itemize}
     \begin{alertblock}{Pregunta operativa}
-        Si el conflicto fue costoso, deber\'iamos ver efectos tanto en PIB regional como en valoraci\'on burs\'atil.
+        Si el conflicto fue costoso, deberíamos ver efectos tanto en PIB regional como en valoración bursátil.
     \end{alertblock}
 \end{frame}
 
-\begin{frame}{Por qu\'e este paper es interesante}
+\begin{frame}{Por qué este paper es interesante}
     \begin{itemize}
-        \item El Pa\'is Vasco era una regi\'on relativamente rica antes del conflicto.
-        \item Esto descarta la lectura simple de ``violencia como mero s\'intoma de pobreza''.
-        \item Adem\'as, este art\'iculo es hist\'orico porque introdujo el m\'etodo de \emph{synthetic control} en la econometr\'ia aplicada.
+        \item El País Vasco era una región relativamente rica antes del conflicto.
+        \item Esto descarta la lectura simple de ``violencia como mero síntoma de pobreza''.
+        \item Además, este artículo es histórico porque introdujo el método de \emph{synthetic control} en la econometría aplicada.
     \end{itemize}
     \begin{block}{Aporte}
-        Este paper es recordado fundacionalmente por mostrar c\'omo construir un contrafactual cre\'ible a nivel regional.
+        Este paper es recordado fundacionalmente por mostrar cómo construir un contrafactual creíble a nivel regional.
     \end{block}
 \end{frame}
 
 \section{Contexto}
 
-\begin{frame}{Contexto hist\'orico}
+\begin{frame}{Contexto histórico}
     \begin{itemize}
         \item ETA se funda en 1959, pero la violencia a gran escala se intensifica desde fines de los 60 y durante los 70.
-        \item El conflicto se concentra territorialmente en el Pa\'is Vasco.
-        \item Durante d\'ecadas, el terrorismo afect\'o las decisiones de inversi\'on mediante extorsi\'on a empresarios y el deterioro general de las expectativas econ\'omicas.
+        \item El conflicto se concentra territorialmente en el País Vasco.
+        \item Durante décadas, el terrorismo afectó las decisiones de inversión mediante extorsión a empresarios y el deterioro general de las expectativas económicas.
     \end{itemize}
 \end{frame}
 
@@ -100,10 +101,10 @@
     
     \vfill
     
-    \scriptsize La violencia de ETA estuvo fuertemente concentrada en el Pa\'is Vasco.
+    \scriptsize La violencia de ETA estuvo fuertemente concentrada en el País Vasco.
 \end{frame}
 
-\begin{frame}{Por qu\'e no basta comparar con el resto de Espa\~na}
+\begin{frame}{Por qué no basta comparar con el resto de España}
     \centering
     \includegraphics[width=0.74\linewidth]{tablas/tabla_3.png}
     
@@ -114,49 +115,50 @@
     
     \scriptsize
     \begin{itemize}
-        \item El Pa\'is Vasco ya era distinto antes del terrorismo.
-        \item Compararlo con Espa\~na mezclar\'ia terrorismo con diferencias previas de crecimiento.
+        \item El País Vasco ya era distinto antes del terrorismo.
+        \item Compararlo con España mezclaría terrorismo con diferencias previas de crecimiento.
     \end{itemize}
-    \scriptsize Se necesita un contrafactual mejor que ``el promedio de Espa\~na''.
+    \scriptsize Se necesita un contrafactual mejor que ``el promedio de España''.
 \end{frame}
 
-\begin{frame}{Estrategia de identificaci\'on}
+\begin{frame}{Estrategia de identificación}
     \begin{itemize}
-        \item El paper usa dos dise\~nos complementarios para identificar el costo econ\'omico del conflicto.
-        \item El dise\~no principal es el \emph{synthetic control}, que construye un contrafactual regional para medir el efecto de largo plazo sobre el PIB.
-        \item La idea es absorber shocks comunes y diferencias previas mejor que en una comparaci\'on simple con el resto de Espa\~na.
-        \item La tregua de 1998--1999 aparece como evidencia complementaria, usando un experimento natural en el mercado burs\'atil.
+        \item El paper usa dos diseños complementarios para identificar el costo económico del conflicto.
+        \item El diseño principal es el \emph{synthetic control}, que construye un contrafactual regional para medir el efecto de largo plazo sobre el PIB.
+        \item La idea es absorber shocks comunes y diferencias previas mejor que en una comparación simple con el resto de España.
+        \item La tregua de 1998--1999 aparece como evidencia complementaria, usando un experimento natural en el mercado bursátil.
     \end{itemize}
     \begin{block}{Idea}
-        Dentro del paper, el control sint\'etico constituye el ejercicio central; el event study aporta evidencia complementaria desde otro margen.
+        Dentro del paper, el control sintético constituye el ejercicio central; el event study aporta evidencia complementaria desde otro margen.
     \end{block}
 \end{frame}
 
 \section{Tema central: Synthetic Control}
 
-\begin{frame}{Estrategia emp\'irica 1}
+\begin{frame}{Estrategia empírica 1}
     \begin{itemize}
-        \item Los autores construyen un ``Pa\'is Vasco sint\'etico'' usando una combinaci\'on de otras regiones espa\~nolas.
-        \item La intuici\'on es simple: buscar regiones que se parezcan al Pa\'is Vasco antes del terrorismo.
-        \item Si luego las trayectorias divergen, esa brecha sugiere un costo econ\'omico del conflicto.
+        \item Los autores construyen un ``País Vasco sintético'' usando una combinación de otras regiones españolas.
+        \item La intuición es simple: buscar regiones que se parezcan al País Vasco antes del terrorismo.
+        \item Si luego las trayectorias divergen, esa brecha sugiere un costo económico del conflicto.
     \end{itemize}
-\begin{block}{Punto central de la presentaci\'on}
-    Esta secci\'on concentra el ejercicio principal del paper: c\'omo se construye el contrafactual y por qu\'e resulta informativo.
+\begin{block}{Punto central de la presentación}
+    Esta sección concentra el ejercicio principal del paper: cómo se construye el contrafactual y por qué resulta informativo.
 \end{block}
 \end{frame}
 
-\begin{frame}{C\'omo se arma el control sint\'etico}
+\begin{frame}{Cómo se arma el control sintético}
     \begin{itemize}
-        \item Variables pretratamiento: PIB per c\'apita, inversi\'on, densidad poblacional, estructura sectorial y capital humano.
-        \item El procedimiento elige pesos no negativos sobre otras regiones para imitar al Pa\'is Vasco antes del shock.
-        \item El ajuste final asigna peso principalmente a Catalu\~na y Madrid.
+        \item Variables pretratamiento: PIB per cápita, inversión, densidad poblacional, estructura sectorial y capital humano.
+        \item El `donor pool` son las otras 16 regiones españolas disponibles como controles, excluyendo al País Vasco.
+        \item El procedimiento elige pesos no negativos sobre otras regiones para imitar al País Vasco antes del shock.
+        \item El ajuste final asigna peso principalmente a Cataluña y Madrid.
     \end{itemize}
     \begin{block}{Idea importante}
-        Se trata de una regi\'on artificial dise\~nada para parecerse al Pa\'is Vasco antes del terrorismo.
+        Se trata de una región artificial diseñada para parecerse al País Vasco antes del terrorismo.
     \end{block}
 \end{frame}
 
-\begin{frame}{Control sint\'etico: formulaci\'on m\'inima}
+\begin{frame}{Control sintético: formulación mínima}
     \begin{equation*}
         W^*=\arg\min_W \left(X_1-X_0W\right)'V\left(X_1-X_0W\right)
     \end{equation*}
@@ -165,39 +167,39 @@
         \qquad Y_1^* = Y_0W^*
     \end{equation*}
     \begin{itemize}
-        \item $X_1$ resume los predictores pretratamiento del Pa\'is Vasco; $X_0$, de las regiones donantes.
-        \item $W$ son pesos que suman 1. La matriz $V$ fija la importancia de cada predictor y emp\'iricamente se elige para minimizar el error de ajuste pretratamiento del PIB.
-        \item Con los pesos \'optimos, $Y_1^*=Y_0W^*$ produce la trayectoria contrafactual sin terrorismo.
+        \item $X_1$ resume los predictores pretratamiento del País Vasco; $X_0$, de las regiones donantes.
+        \item $W$ son pesos que suman 1. La matriz $V$ fija la importancia de cada predictor y empíricamente se elige para minimizar el error de ajuste pretratamiento del PIB.
+        \item Con los pesos óptimos, $Y_1^*=Y_0W^*$ produce la trayectoria contrafactual sin terrorismo.
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Por qu\'e esta estrategia es cre\'ible}
+\begin{frame}{Por qué esta estrategia es creíble}
     \begin{itemize}
-        \item Antes de 1975, el Pa\'is Vasco real y el sint\'etico muestran trayectorias muy parecidas.
-        \item Esto sugiere que el contrafactual reproduce adecuadamente la din\'amica previa del ingreso.
-        \item La credibilidad no descansa en un supuesto de exogeneidad pura del terrorismo, sino en la capacidad del sint\'etico para absorber shocks comunes y heterogeneidad no observada.
+        \item Antes de 1975, el País Vasco real y el sintético muestran trayectorias muy parecidas.
+        \item Esto sugiere que el contrafactual reproduce adecuadamente la dinámica previa del ingreso.
+        \item La credibilidad no descansa en un supuesto de exogeneidad pura del terrorismo, sino en la capacidad del sintético para absorber shocks comunes y heterogeneidad no observada.
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Resultado principal 1: PIB per c\'apita}
+\begin{frame}{Resultado principal 1: PIB per cápita}
     \begin{itemize}
-        \item Desde mediados de los 70, el PIB per c\'apita del Pa\'is Vasco cae por debajo del sint\'etico.
+        \item Desde mediados de los 70, el PIB per cápita del País Vasco cae por debajo del sintético.
         \item La brecha llega a estar cerca de 12\% y en promedio ronda 10\%.
         \item El resultado sugiere un costo persistente del conflicto, no solo transitorio.
     \end{itemize}
     \begin{alertblock}{Hallazgo principal}
-        El paper estima una p\'erdida cercana a 10\% en PIB per c\'apita relativo al contrafactual sin terrorismo.
+        El paper estima una pérdida cercana a 10\% en PIB per cápita relativo al contrafactual sin terrorismo.
     \end{alertblock}
 \end{frame}
 
 \begin{frame}{Figura 1: el resultado central}
     \centering
-    \includegraphics[width=0.60\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_820_1064_155_292.jpg}
+    \includegraphics[width=0.88\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_820_1064_155_292.jpg}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 1. Per Capita GDP for the Basque Country\par}
     \vspace{0.08cm}
-    \tiny Antes de 1975 ambas trayectorias son parecidas; despu\'es aparece una brecha persistente entre el Pa\'is Vasco real y el sint\'etico.
+    \tiny Antes de 1975 ambas trayectorias son parecidas; después aparece una brecha persistente entre el País Vasco real y el sintético.
 \end{frame}
 
 \begin{frame}{Intensidad del terrorismo y brecha de PIB}
@@ -206,7 +208,7 @@
             \begin{itemize}
                 \item Los autores comparan la brecha de PIB con la intensidad de ETA.
                 \item Cuando la violencia aumenta, la brecha tiende a ampliarse.
-                \item El patr\'on es consistente con un efecto rezagado de 2 a 3 a\~nos.
+                \item El patrón es consistente con un efecto rezagado de 2 a 3 años.
             \end{itemize}
         \end{column}
         \begin{column}{0.62\textwidth}
@@ -221,105 +223,105 @@
     \tiny La coincidencia temporal refuerza la lectura del resultado principal.
 \end{frame}
 
-\begin{frame}{Figura 3: respuesta din\'amica}
+\begin{frame}{Figura 3: respuesta dinámica}
     \centering
     \includegraphics[width=0.64\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-07_511_681_152_122.jpg}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 3. Impulse-Response Function for Terrorism on the GDP Gap\par}
     \vspace{0.08cm}
-    \tiny El efecto negativo del terrorismo sobre la brecha del PIB es m\'aximo alrededor de 2 a 3 a\~nos y luego se disipa gradualmente.
+    \tiny El efecto negativo del terrorismo sobre la brecha del PIB es máximo alrededor de 2 a 3 años y luego se disipa gradualmente.
 \end{frame}
 
-\begin{frame}{Placebo con Catalu\~na}
+\begin{frame}{Placebo con Cataluña}
     \begin{itemize}
-        \item Para verificar que el m\'etodo no produzca brechas artificiales, aplican la misma idea a Catalu\~na.
-        \item Catalu\~na es una regi\'on comparable, pero no sufri\'o una escalada similar de terrorismo.
-        \item El resultado placebo no replica la misma brecha prolongada observada en el Pa\'is Vasco.
+        \item Para verificar que el método no produzca brechas artificiales, aplican la misma idea a Cataluña.
+        \item Cataluña es una región comparable, pero no sufrió una escalada similar de terrorismo.
+        \item El resultado placebo no replica la misma brecha prolongada observada en el País Vasco.
     \end{itemize}
-    \begin{block}{Interpretaci\'on}
-        Esto fortalece la idea de que la divergencia del Pa\'is Vasco no es un mero artefacto del m\'etodo.
+    \begin{block}{Interpretación}
+        Esto fortalece la idea de que la divergencia del País Vasco no es un mero artefacto del método.
     \end{block}
 \end{frame}
 
-\begin{frame}{Figura 4: placebo con Catalu\~na}
+\begin{frame}{Figura 4: placebo con Cataluña}
     \centering
-    \includegraphics[width=0.62\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-08_823_1062_150_294.jpg}
+    \includegraphics[width=0.88\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-08_823_1062_150_294.jpg}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 4. A Placebo Study: Per Capita GDP for Catalonia\par}
     \vspace{0.08cm}
-    \tiny El placebo no reproduce una brecha del mismo tipo, lo que hace m\'as cre\'ible la lectura causal para el Pa\'is Vasco.
+    \tiny El placebo no reproduce una brecha del mismo tipo, lo que hace más creíble la lectura causal para el País Vasco.
 \end{frame}
 
-\begin{frame}{Fortalezas y cr\'iticas de esta estrategia}
+\begin{frame}{Fortalezas y críticas de esta estrategia}
     \begin{itemize}
-        \item Fortaleza: el ajuste pretratamiento y el placebo hacen transparente por qu\'e la comparaci\'on es informativa.
-        \item Cr\'itica: el control sint\'etico depende sobre todo de Catalu\~na y Madrid, por lo que la evidencia descansa fuertemente en esa combinaci\'on.
-        \item Cr\'itica: la estructura industrial del Pa\'is Vasco no queda replicada perfectamente, lo que genera ruido ante la crisis industrial de los 70.
+        \item Fortaleza: el ajuste pretratamiento y el placebo hacen transparente por qué la comparación es informativa.
+        \item Crítica: el control sintético depende sobre todo de Cataluña y Madrid, por lo que la evidencia descansa fuertemente en esa combinación.
+        \item Crítica: la estructura industrial del País Vasco no queda replicada perfectamente, lo que genera ruido ante la crisis industrial de los 70.
     \end{itemize}
 \end{frame}
 
 \section{Evidencia complementaria: tregua y event study}
 
-\begin{frame}{Transici\'on a la segunda estrategia}
+\begin{frame}{Transición a la segunda estrategia}
     \begin{itemize}
-        \item Hasta aqu\'i, la evidencia central del paper viene del control sint\'etico y del efecto sobre PIB regional.
-        \item La segunda parte no reemplaza esa historia: la complementa con reacciones de mercado ante nueva informaci\'on sobre el conflicto.
-        \item La idea es usar la tregua de 1998--1999 como validaci\'on adicional, no como el resultado principal del paper.
+        \item Hasta aquí, la evidencia central del paper viene del control sintético y del efecto sobre PIB regional.
+        \item La segunda parte no reemplaza esa historia: la complementa con reacciones de mercado ante nueva información sobre el conflicto.
+        \item La idea es usar la tregua de 1998--1999 como validación adicional, no como el resultado principal del paper.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{La tregua de 1998--1999}
     \begin{itemize}
         \item ETA anuncia una tregua en septiembre de 1998.
-        \item La credibilidad de la tregua no es inmediata; se construye gradualmente con se\~nales pol\'iticas y contactos con el gobierno.
+        \item La credibilidad de la tregua no es inmediata; se construye gradualmente con señales políticas y contactos con el gobierno.
         \item En noviembre de 1999, ETA anuncia el fin de la tregua.
     \end{itemize}
-    \begin{block}{Predicci\'on}
-        Si el conflicto tiene un costo econ\'omico, las empresas expuestas al Pa\'is Vasco deber\'ian subir cuando la paz parece cre\'ible y caer cuando colapsa.
+    \begin{block}{Predicción}
+        Si el conflicto tiene un costo económico, las empresas expuestas al País Vasco deberían subir cuando la paz parece creíble y caer cuando colapsa.
     \end{block}
 \end{frame}
 
-\begin{frame}{Dise\~no del event study}
+\begin{frame}{Diseño del event study}
     \begin{itemize}
-        \item Los autores clasifican firmas en dos grupos: expuestas al Pa\'is Vasco y no expuestas.
+        \item Los autores clasifican firmas en dos grupos: expuestas al País Vasco y no expuestas.
         \item Construyen dos portafolios buy-and-hold: 14 acciones ``Basque'' y 59 ``non-Basque''.
         \item Good News cubre 22 sesiones de trading; Bad News, 66 sesiones.
-        \item La comparaci\'on se hace con retornos anormales, no solo retornos brutos.
+        \item La comparación se hace con retornos anormales, no solo retornos brutos.
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Event study: ecuaci\'on e interpretaci\'on}
+\begin{frame}{Event study: ecuación e interpretación}
     \begin{equation*}
         R_t^j = \alpha^j + \beta_1^j R_t^m + \beta_2^j SMB_t + \beta_3^j HML_t + AR_t^j
     \end{equation*}
     \begin{itemize}
         \item En el paper, $j$ indexa dos portafolios estimados por separado: `Basque` y `non-Basque`.
         \item $R_t^m$, $SMB_t$ y $HML_t$ controlan por movimientos del mercado y factores de riesgo.
-        \item En `Table 6`, los autores agregan `Good News` y `Bad News` a esta ecuaci\'on y adem\'as reportan una `difference regression` (`Basque - non-Basque`).
+        \item En `Table 6`, los autores agregan `Good News` y `Bad News` a esta ecuación y además reportan una `difference regression` (`Basque - non-Basque`).
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Resultado principal 2}
     \begin{itemize}
-        \item Las acciones expuestas al Pa\'is Vasco reaccionan positivamente cuando la tregua gana credibilidad.
-        \item Cuando el proceso de paz se deteriora y termina, esas mismas acciones muestran un desempe\~no relativo negativo.
+        \item Las acciones expuestas al País Vasco reaccionan positivamente cuando la tregua gana credibilidad.
+        \item Cuando el proceso de paz se deteriora y termina, esas mismas acciones muestran un desempeño relativo negativo.
         \item Las firmas no expuestas reaccionan mucho menos.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Figura 6: retornos anormales acumulados}
     \centering
-    \includegraphics[width=0.60\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}
+    \includegraphics[width=0.82\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 6. Cumulative Abnormal Portfolio Returns\par}
     \vspace{0.08cm}
-    \tiny El portafolio expuesto al Pa\'is Vasco mejora cuando la tregua gana credibilidad y cae cuando el proceso de paz colapsa.
+    \tiny El portafolio expuesto al País Vasco mejora cuando la tregua gana credibilidad y cae cuando el proceso de paz colapsa.
 \end{frame}
 
-\begin{frame}{Magnitud de los efectos burs\'atiles}
+\begin{frame}{Magnitud de los efectos bursátiles}
     \centering
     \includegraphics[width=0.82\linewidth]{tablas/tablas_6.png}
     
@@ -331,40 +333,40 @@
     \raggedright
     \scriptsize
     \begin{itemize}
-        \item La magnitud econ\'omica de los coeficientes es grande y del signo te\'oricamente esperado.
-        \item Este ejercicio complementa, pero no reemplaza, la evidencia de largo plazo del control sint\'etico.
+        \item La magnitud económica de los coeficientes es grande y del signo teóricamente esperado.
+        \item Este ejercicio complementa, pero no reemplaza, la evidencia de largo plazo del control sintético.
     \end{itemize}
 \end{frame}
 
-\section{Evaluaci\'on general}
+\section{Evaluación general}
 
 \begin{frame}{Aporte del paper}
     \begin{itemize}
-        \item Aporta evidencia causal m\'as convincente que una simple correlaci\'on entre conflicto y menor crecimiento.
-        \item Su contribuci\'on hist\'orica es introducir formalmente el m\'etodo de \emph{synthetic control} en la literatura econ\'omica.
-        \item Un aporte metodol\'ogico clave es volver transparente el contrafactual: qu\'e unidades lo forman, con qu\'e pesos y por qu\'e resulta plausible.
-        \item El event study fortalece el argumento, pero el coraz\'on del paper es la construcci\'on del contrafactual sint\'etico.
+        \item Aporta evidencia causal más convincente que una simple correlación entre conflicto y menor crecimiento.
+        \item Su contribución histórica es introducir formalmente el método de \emph{synthetic control} en la literatura económica.
+        \item Un aporte metodológico clave es volver transparente el contrafactual: qué unidades lo forman, con qué pesos y por qué resulta plausible.
+        \item El event study fortalece el argumento, pero el corazón del paper es la construcción del contrafactual sintético.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Limitaciones}
     \begin{itemize}
-        \item La objeci\'on m\'as seria es la crisis del petr\'oleo y el declive de la industria pesada en los 70: el Pa\'is Vasco estaba especialmente expuesto a ese shock.
-        \item Si el sint\'etico no replica del todo esa composici\'on sectorial, parte de la brecha podr\'ia reflejar cambio estructural y no solo terrorismo.
-        \item El control depende mucho de Catalu\~na y Madrid, y la clasificaci\'on de firmas expuestas en el event study descansa en juicio de analistas.
+        \item La objeción más seria es la crisis del petróleo y el declive de la industria pesada en los 70: el País Vasco estaba especialmente expuesto a ese shock.
+        \item Si el sintético no replica del todo esa composición sectorial, parte de la brecha podría reflejar cambio estructural y no solo terrorismo.
+        \item El control depende mucho de Cataluña y Madrid, y la clasificación de firmas expuestas en el event study descansa en juicio de analistas.
     \end{itemize}
     \begin{block}{Pero}
         La defensa del paper es que combina dos fuentes de evidencia distintas, aunque ninguna elimina por completo esas dudas.
     \end{block}
 \end{frame}
 
-\section{Conclusi\'on}
+\section{Conclusión}
 
 \begin{frame}{Conclusiones}
     \begin{itemize}
-        \item El conflicto en el Pa\'is Vasco tuvo costos econ\'omicos relevantes y persistentes.
-        \item El resultado central del paper es una brecha de aproximadamente 10\% en PIB per c\'apita respecto del contrafactual sint\'etico.
-        \item La evidencia burs\'atil aporta respaldo adicional a esa interpretaci\'on.
+        \item El conflicto en el País Vasco tuvo costos económicos relevantes y persistentes.
+        \item El resultado central del paper es una brecha de aproximadamente 10\% en PIB per cápita respecto del contrafactual sintético.
+        \item La evidencia bursátil aporta respaldo adicional a esa interpretación.
     \end{itemize}
     \begin{alertblock}{Cierre}
         En conjunto, el paper muestra que el \emph{synthetic control} ofrece una forma convincente de aproximar un contrafactual no observado.
