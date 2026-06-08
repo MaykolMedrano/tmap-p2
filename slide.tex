@@ -3,7 +3,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
-\usepackage{amsmath,xcolor,booktabs,graphicx,multicol}
+\usepackage{amsmath,xcolor,booktabs,graphicx,multicol,tikz}
+\usetikzlibrary{arrows.meta,calc}
 \usepackage{Ritsumeikan}
 
 \title[Costs of Conflict]{The Economic Costs of Conflict:\\A Case Study of the Basque Country}
@@ -314,7 +315,22 @@
 
 \begin{frame}{Figura 6: retornos anormales acumulados}
     \centering
-    \includegraphics[width=0.82\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}
+    \begin{tikzpicture}
+        \node[inner sep=0] (fig6) {\includegraphics[width=0.82\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}};
+
+        \coordinate (goodx) at ($(fig6.south west)!0.27!(fig6.south east)$);
+        \coordinate (badx) at ($(fig6.south west)!0.79!(fig6.south east)$);
+
+        \draw[-{Latex[length=2.2mm]}, thick, ritsumeikan]
+            ($(goodx)+(0,1.15)$) -- ($(goodx)+(0,0.18)$);
+        \node[anchor=south, align=center, text=ritsumeikan, font=\scriptsize]
+            at ($(goodx)+(0,1.2)$) {Good News\\\tiny 22 sesiones};
+
+        \draw[-{Latex[length=2.2mm]}, thick, ritsumeikan]
+            ($(badx)+(0,1.15)$) -- ($(badx)+(0,0.18)$);
+        \node[anchor=south, align=center, text=ritsumeikan, font=\scriptsize]
+            at ($(badx)+(0,1.2)$) {Bad News\\\tiny 66 sesiones};
+    \end{tikzpicture}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 6. Cumulative Abnormal Portfolio Returns\par}
