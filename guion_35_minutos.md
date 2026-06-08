@@ -28,7 +28,7 @@ La narrativa de la exposición tiene que ser esta:
 
 Guion sugerido:
 
-> Hoy voy a presentar *The Economic Costs of Conflict: A Case Study of the Basque Country*, de Abadie y Gardeazabal, publicado en 2003 en el *American Economic Review*. El paper estudia una pregunta muy concreta: si el conflicto político y, en particular, el terrorismo de ETA, tuvo un costo económico observable sobre el País Vasco.
+> Hoy voy a presentar *The Economic Costs of Conflict: A Case Study of the Basque Country*, de Abadie y Gardeazabal, publicado en 2003 en el *American Economic Review*. El paper estudia una pregunta muy concreta: si el conflicto político y, en particular, el terrorismo de ETA, es decir, *Euskadi Ta Askatasuna*, una organización separatista vasca, tuvo un costo económico observable sobre el País Vasco.
 
 **Transición a la siguiente diapositiva:**
 > Para ordenar la exposición, primero les muestro brevemente la ruta que voy a seguir.
@@ -78,7 +78,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> ETA se funda en 1959, pero la violencia a gran escala se intensifica realmente a fines de los 60 y, sobre todo, durante los 70. El punto importante para nosotros es que no se trata de hechos aislados, sino de un conflicto persistente, concentrado territorialmente y con capacidad de afectar inversión, decisiones empresariales y expectativas.
+> ETA, sigla de *Euskadi Ta Askatasuna*, es una organización separatista vasca fundada en 1959. La violencia a gran escala se intensifica realmente a fines de los 60 y, sobre todo, durante los 70. El punto importante para nosotros es que no se trata de hechos aislados, sino de un conflicto persistente, concentrado territorialmente y con capacidad de afectar inversión, decisiones empresariales y expectativas.
 
 **Transición a la siguiente diapositiva:**
 > Ese contexto se entiende mejor cuando uno mira qué tan concentrada estuvo la violencia.
