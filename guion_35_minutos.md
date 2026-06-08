@@ -239,14 +239,16 @@ Guion sugerido:
 > Hasta aquí, la evidencia central viene del PIB regional. La segunda parte del paper cambia de margen: en vez de mirar crecimiento de largo plazo, mira cómo reaccionan los mercados cuando cambia la credibilidad de la paz.
 
 **Transición a la siguiente diapositiva:**
-> Esa segunda estrategia se apoya en un episodio muy concreto: la tregua de 1998--1999.
+> Esa segunda estrategia se apoya en un episodio político muy concreto: el alto al fuego de ETA entre 1998 y 1999.
 
 ### 22. La tregua de 1998--1999
 `22:30--23:30`
 
 Guion sugerido:
 
-> ETA declara una tregua en septiembre de `1998` y la rompe en noviembre de `1999`. La idea del paper es que la tregua puede leerse como un experimento natural. Si el conflicto realmente dañaba la economía vasca, entonces uno esperaría que las firmas expuestas al País Vasco se apreciaran relativamente cuando la tregua se vuelve creíble y cayeran cuando el proceso de paz colapsa.
+> Antes de hablar de bolsa, conviene ubicar bien el episodio. ETA declara un alto al fuego en septiembre de `1998` y lo rompe en noviembre de `1999`. Al comienzo, esa tregua no se percibe como plenamente creíble; de hecho, hay bastante escepticismo. La gracia del episodio es que, a medida que avanzan los meses, aparecen señales que hacen subir o bajar la probabilidad de paz. Eso es justamente lo que los autores explotan en el `event study`.
+
+> La intuición entonces es simple: si el conflicto realmente dañaba la economía vasca, las firmas expuestas al País Vasco deberían apreciarse relativamente cuando la tregua gana credibilidad y caer cuando el proceso de paz colapsa.
 
 **Transición a la siguiente diapositiva:**
 > A partir de esa tregua, el paper construye el diseño empírico del `event study`.
