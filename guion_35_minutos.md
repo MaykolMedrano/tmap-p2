@@ -56,7 +56,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> Este caso es interesante por dos razones. Primero, porque el Pa\'is Vasco no era una regi\'on pobre o rezagada antes del conflicto; al contrario, era una regi\'on rica e industrializada. Segundo, porque el paper se volvi\'o una referencia cl\'asica justamente por mostrar c\'omo construir un contrafactual cre\'ible cuando no sirve comparar directamente con el promedio nacional.
+> Este caso es interesante por dos razones. Primero, porque el Pa\'is Vasco no era una regi\'on pobre o rezagada antes del conflicto; al contrario, era una regi\'on rica e industrializada, lo que descarta que la violencia sea un mero s\'intoma de pobreza previa. Segundo, porque este es el paper fundacional que introdujo el m\'etodo de `synthetic control` en la econometr\'ia, cambiando la forma en que estudiamos shocks agregados.
 
 ### 6. Contexto hist\'orico
 `4:30--5:30`
@@ -107,7 +107,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> La formulaci\'on del m\'etodo es esta. `X_1` contiene los predictores pretratamiento del Pa\'is Vasco; `X_0` contiene esos mismos predictores para las regiones donantes; `W` es el vector de pesos; y `V` es una matriz diagonal que le da importancia relativa a cada predictor. El objetivo es encontrar los pesos que mejor repliquen el Pa\'is Vasco antes del terrorismo.
+> La formulaci\'on del m\'etodo es esta. `X_1` contiene los predictores pretratamiento del Pa\'is Vasco; `X_0` contiene esos mismos predictores para las regiones donantes; `W` es el vector de pesos; y `V` es una matriz diagonal que le da importancia relativa a cada predictor. Un detalle clave es que emp\'iricamente `V` se elige de forma iterativa para que el control sint\'etico minimice el error de predicci\'on sobre la trayectoria del PIB per c\'apita *antes* del tratamiento.
 
 > Una vez elegidos esos pesos, se usa la combinaci\'on ponderada de regiones donantes para construir la trayectoria contrafactual `Y_1^*`. Lo importante en la presentaci\'on no es la notaci\'on en s\'i misma, sino la l\'ogica: aproximar un contrafactual no observado con una regi\'on artificial pero comparable.
 
@@ -116,7 +116,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> La credibilidad del m\'etodo no viene de asumir que el terrorismo sea ex\'ogeno, sino de que el sint\'etico reproduzca bien la trayectoria previa. Si antes de `1975` ambas series se comportan parecido, entonces es m\'as plausible usar esa regi\'on sint\'etica como referencia para el per\'iodo posterior.
+> La credibilidad del m\'etodo no descansa en asumir que el terrorismo cay\'o del cielo como un shock puramente ex\'ogeno. M\'as bien, la fortaleza est\'a en que, al replicar la trayectoria previa, el sint\'etico absorbe shocks comunes y heterogeneidad no observada. Si antes de `1975` ambas series se comportan parecido, es mucho m\'as cre\'ible usar esa regi\'on artificial como referencia contrafactual para el per\'iodo posterior.
 
 ### 14. Resultado principal 1: PIB per c\'apita
 `13:30--14:30`
@@ -162,7 +162,7 @@ Guion sugerido:
 
 > El resultado placebo no reproduce una brecha prolongada como la del Pa\'is Vasco. Eso hace m\'as plausible la interpretaci\'on causal del ejercicio principal. Al mismo tiempo, el paper reconoce que Catalu\~na tuvo un desempe\~no especialmente fuerte en los 90, asociado entre otras cosas a los Juegos Ol\'impicos de Barcelona de `1992`, y eso incluso podr\'ia exagerar un poco la brecha del Pa\'is Vasco en la parte final de la muestra.
 
-### 20. Fortalezas y dudas de esta estrategia
+### 20. Fortalezas y cr\'iticas de esta estrategia
 `20:30--22:00`
 
 Guion sugerido:
@@ -197,9 +197,11 @@ Guion sugerido:
 
 Guion sugerido:
 
-> Como la tregua se desarrolla de forma gradual durante `14` meses, el paper no usa una ventana cort\'isima como en un event study tradicional. En cambio, estima un modelo tipo Fama-French y a\~nade dos dummies: `Good News` y `Bad News`.
+> Como la tregua se desarrolla de forma gradual durante `14` meses, el paper no usa una ventana cort\'isima como en un event study tradicional. En cambio, parte de un modelo tipo Fama-French para portafolios `Basque` y `non-Basque`, y luego agrega dos dummies: `Good News` y `Bad News`.
 
-> `Good News` cubre `22` sesiones burs\'atiles, desde que la tregua gana credibilidad hasta que el gobierno autoriza contactos con ETA. `Bad News` cubre `66` sesiones, desde el deterioro del proceso hasta el fin de la tregua. La interpretaci\'on de los coeficientes es directa: capturan retornos anormales promedio durante esos per\'iodos.
+> M\'as precisamente, el paper parte estimando esa ecuaci\'on para dos portafolios por separado, `Basque` y `non-Basque`. Luego, en `Table 6`, agrega las dummies `Good News` y `Bad News` a esa especificaci\'on y adem\'as reporta una `difference regression` en la \'ultima columna, que resume el retorno relativo `Basque - non-Basque`.
+
+> `Good News` cubre `22` sesiones burs\'atiles, desde que la tregua gana credibilidad hasta que el gobierno autoriza contactos con ETA. `Bad News` cubre `66` sesiones, desde el deterioro del proceso hasta el fin de la tregua. Para la exposici\'on, conviene poner el foco en esa columna diferencial, pero sin perder de vista que el paper primero estima ambos portafolios por separado.
 
 ### 25. Resultado principal 2
 `26:00--27:00`
@@ -220,14 +222,14 @@ Guion sugerido:
 
 Guion sugerido:
 
-> En t\'erminos acumulados, el paper encuentra una rentabilidad anormal compuesta de aproximadamente `10.14%` durante el periodo de `Good News` y de `-11.21%` durante el periodo de `Bad News` para el portafolio vasco relativo al no vasco. Son magnitudes econ\'omicamente relevantes, y por eso esta segunda estrategia funciona bien como respaldo al argumento principal.
+> En t\'erminos acumulados, el paper encuentra una rentabilidad anormal compuesta de aproximadamente `10.14%` durante el periodo de `Good News` y de `-11.21%` durante el periodo de `Bad News` para el portafolio vasco relativo al no vasco. Son magnitudes econ\'omicamente grandes y muy dif\'iciles de explicar solo por azar, por lo que esta segunda estrategia funciona excepcionalmente bien como respaldo al argumento principal de que el conflicto tiene un costo real medible.
 
 ### 28. Aporte del paper
 `30:00--31:00`
 
 Guion sugerido:
 
-> El aporte del paper es doble. Sustantivamente, entrega evidencia de que el conflicto pol\'itico puede tener costos econ\'omicos importantes y persistentes. Metodol\'ogicamente, muestra una forma convincente de construir un contrafactual cuando una comparaci\'on simple no es cre\'ible.
+> El aporte del paper es doble. Sustantivamente, entrega evidencia muy convincente de que el conflicto pol\'itico tuvo costos econ\'omicos severos. Pero metodol\'ogicamente su aporte es hist\'orico: este es el paper fundacional que introdujo el m\'etodo de `synthetic control` a la econometr\'ia aplicada, ofreciendo una forma sistem\'atica y transparente de construir un contrafactual cuando los m\'etodos tradicionales no son viables.
 
 ### 29. Limitaciones
 `31:00--33:00`
