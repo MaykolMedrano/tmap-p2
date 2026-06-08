@@ -149,30 +149,36 @@
 \end{frame}
 
 \begin{frame}{Cómo se arma el control sintético}
-    \begin{itemize}
-        \item Variables pretratamiento: PIB per cápita, inversión, densidad poblacional, estructura sectorial y capital humano.
-        \item El `donor pool` son las otras 16 regiones españolas disponibles como controles, excluyendo al País Vasco.
-        \item El procedimiento elige pesos no negativos sobre otras regiones para imitar al País Vasco antes del shock.
-        \item El ajuste final asigna peso principalmente a Cataluña y Madrid.
-    \end{itemize}
-    \begin{block}{Idea importante}
-        Se trata de una región artificial diseñada para parecerse al País Vasco antes del terrorismo.
-    \end{block}
-\end{frame}
-
-\begin{frame}{Control sintético: formulación mínima}
-    \begin{equation*}
-        W^*=\arg\min_W \left(X_1-X_0W\right)'V\left(X_1-X_0W\right)
-    \end{equation*}
-    \begin{equation*}
-        \text{s.a. } w_j \geq 0 \quad \text{y} \quad \sum_{j=1}^{J} w_j = 1,
-        \qquad Y_1^* = Y_0W^*
-    \end{equation*}
-    \begin{itemize}
-        \item $X_1$ resume los predictores pretratamiento del País Vasco; $X_0$, de las regiones donantes.
-        \item $W$ son pesos que suman 1. La matriz $V$ fija la importancia de cada predictor y empíricamente se elige para minimizar el error de ajuste pretratamiento del PIB.
-        \item Con los pesos óptimos, $Y_1^*=Y_0W^*$ produce la trayectoria contrafactual sin terrorismo.
-    \end{itemize}
+    \begin{columns}[T,totalwidth=\textwidth]
+        \begin{column}{0.52\textwidth}
+            \begin{itemize}
+                \item Variables pretratamiento: PIB per cápita, inversión, densidad poblacional, estructura sectorial y capital humano.
+                \item El `donor pool` son las otras 16 regiones españolas disponibles como controles, excluyendo al País Vasco.
+                \item El procedimiento elige pesos no negativos sobre otras regiones para imitar al País Vasco antes del shock.
+                \item El ajuste final asigna peso principalmente a Cataluña y Madrid.
+            \end{itemize}
+            \begin{block}{Idea importante}
+                Se trata de una región artificial diseñada para parecerse al País Vasco antes del terrorismo.
+            \end{block}
+        \end{column}
+        \begin{column}{0.46\textwidth}
+            \begin{equation*}
+                W^*=\arg\min_W \left(X_1-X_0W\right)'V\left(X_1-X_0W\right)
+            \end{equation*}
+            \begin{equation*}
+                \text{s.a. } w_j \geq 0,\ \sum_{j=1}^{J} w_j = 1
+            \end{equation*}
+            \begin{equation*}
+                Y_1^* = Y_0W^*
+            \end{equation*}
+            {\scriptsize
+            \begin{itemize}
+                \item $X_1$: predictores del País Vasco.
+                \item $X_0$: predictores de las regiones donantes.
+                \item $W$: pesos; $V$: importancia relativa de cada predictor.
+            \end{itemize}}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{Por qué esta estrategia es creíble}

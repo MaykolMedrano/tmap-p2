@@ -121,24 +121,16 @@ Guion sugerido:
 > La idea del control sintético es conceptualmente simple. Se construye un "País Vasco sintético" como una combinación de otras regiones españolas que se parezcan al País Vasco antes del terrorismo. Si antes del shock ambas trayectorias son similares y luego divergen, los autores interpretan esa divergencia como evidencia consistente con un costo económico del conflicto.
 
 **Transición a la siguiente diapositiva:**
-> La intuición ya la vimos; ahora veamos cómo se construye ese contrafactual en la práctica.
+> La intuición ya la vimos; ahora veamos cómo se construye ese contrafactual en la práctica y cómo se resume en una formulación mínima.
 
 ### 11. Cómo se arma el control sintético
-`9:30--11:00`
+`9:30--12:00`
 
 Guion sugerido:
 
 > Para armar el sintético, los autores usan predictores pretratamiento asociados al potencial de crecimiento: PIB per cápita, razón de inversión, densidad poblacional, estructura sectorial y capital humano. El `donor pool` está compuesto por las otras `16` regiones españolas disponibles como controles, excluyendo al País Vasco. Dentro de ese conjunto, el algoritmo elige pesos no negativos para minimizar la distancia respecto del País Vasco. En la práctica, los pesos óptimos recaen sobre todo en `Cataluña` y `Madrid`: aproximadamente `0.8508` y `0.1492`, respectivamente.
 
 > Esto parece razonable porque ambas regiones compartían con el País Vasco altos niveles de ingreso y urbanización. Pero ya aquí aparece una limitación: el ajuste no es perfecto, especialmente en la intensidad industrial, porque el País Vasco era la región más industrializada de todas.
-
-**Transición a la siguiente diapositiva:**
-> Una forma compacta de resumir ese procedimiento es con la formulación que aparece en esta diapositiva.
-
-### 12. Control sintético: formulación mínima
-`11:00--12:30`
-
-Guion sugerido:
 
 > La formulación del método es esta. `X_1` contiene los predictores pretratamiento del País Vasco; `X_0` contiene esos mismos predictores para las regiones donantes; `W` es el vector de pesos; y `V` es una matriz diagonal que le da importancia relativa a cada predictor. Un detalle clave es que empíricamente `V` se elige de forma iterativa para que el control sintético minimice el error de predicción sobre la trayectoria del PIB per cápita *antes* del tratamiento.
 
