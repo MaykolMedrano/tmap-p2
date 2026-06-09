@@ -139,7 +139,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Más allá de la notación, lo importante es por qué este ejercicio resulta creíble.
 
-### 13. Por qué esta estrategia es creíble
+### 12. Por qué esta estrategia es creíble
 `12:30--13:30`
 
 Guion sugerido:
@@ -149,7 +149,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Si aceptamos esa lógica, entonces podemos mirar el resultado principal del paper.
 
-### 14. Resultado principal 1: PIB per cápita
+### 13. Resultado principal 1: PIB per cápita
 `13:30--14:30`
 
 Guion sugerido:
@@ -159,7 +159,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Y ese resultado se ve con mucha claridad en la figura central del artículo.
 
-### 15. Figura 1: el resultado central
+### 14. Figura 1: el resultado central
 `14:30--16:00`
 
 Guion sugerido:
@@ -171,7 +171,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > El paper no se queda solo con esa brecha promedio; también estudia cómo cambia con la violencia.
 
-### 16. Intensidad del terrorismo y brecha de PIB
+### 15. Intensidad del terrorismo y brecha de PIB
 `16:00--17:30`
 
 Guion sugerido:
@@ -181,7 +181,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Además, los autores intentan mostrar que ese efecto no es solo contemporáneo, sino dinámico.
 
-### 17. Figura 3: respuesta dinámica
+### 16. Figura 3: respuesta dinámica
 `17:30--18:30`
 
 Guion sugerido:
@@ -191,28 +191,20 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Hasta aquí vimos el resultado principal; ahora viene una validación clave del método.
 
-### 18. Placebo con Cataluña
-`18:30--19:30`
+### 17. Placebo con Cataluña
+`18:30--20:00`
 
 Guion sugerido:
 
 > Aquí el paper hace algo muy importante para la credibilidad del método: un placebo. Aplica la misma lógica a Cataluña, una región comparable en varios aspectos, pero sin una escalada similar de terrorismo. La pregunta es si el método produciría una brecha artificial incluso donde no debería hacerlo.
-
-**Transición a la siguiente diapositiva:**
-> Esa validación se aprecia mejor cuando miramos el placebo directamente en la figura.
-
-### 19. Figura 4: placebo con Cataluña
-`19:30--20:30`
-
-Guion sugerido:
 
 > El resultado placebo no reproduce una brecha prolongada como la del País Vasco. Eso hace más plausible la interpretación causal del ejercicio principal. Al mismo tiempo, el paper reconoce que Cataluña tuvo un desempeño especialmente fuerte en los 90, asociado entre otras cosas a los Juegos Olímpicos de Barcelona de `1992`, y eso incluso podría exagerar un poco la brecha del País Vasco en la parte final de la muestra.
 
 **Transición a la siguiente diapositiva:**
 > Después de ver el placebo, conviene hacer un balance breve de fortalezas y objeciones.
 
-### 20. Fortalezas y críticas de esta estrategia
-`20:30--22:00`
+### 18. Fortalezas y críticas de esta estrategia
+`20:00--22:00`
 
 Guion sugerido:
 
@@ -223,7 +215,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Hasta ahora todo giró en torno al PIB regional; la segunda parte del paper cambia de margen.
 
-### 21. Transición a la segunda estrategia
+### 19. Por qué mirar la tregua
 `22:00--22:30`
 
 Guion sugerido:
@@ -233,7 +225,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Esa segunda estrategia se apoya en un episodio político muy concreto: el alto al fuego de ETA entre 1998 y 1999.
 
-### 22. La tregua de 1998--1999
+### 20. La tregua de 1998--1999
 `22:30--23:30`
 
 Guion sugerido:
@@ -245,7 +237,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > A partir de esa tregua, el paper construye el diseño empírico del `event study`.
 
-### 23. Diseño del event study
+### 21. Diseño del event study
 `23:30--24:30`
 
 Guion sugerido:
@@ -255,7 +247,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ese diseño en mente, ahora sí podemos mirar la ecuación y su interpretación.
 
-### 24. Event study: ecuación e interpretación
+### 22. Event study: ecuación e interpretación
 `24:30--26:00`
 
 Guion sugerido:
@@ -271,7 +263,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Una vez entendida la especificación, pasemos al resultado principal de esta segunda estrategia.
 
-### 25. Resultado principal 2
+### 23. Resultado principal 2
 `26:00--27:00`
 
 Guion sugerido:
@@ -281,7 +273,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Ese resultado también se puede ver visualmente en la trayectoria de los retornos acumulados.
 
-### 26. Figura 6: retornos anormales acumulados
+### 24. Figura 6: retornos anormales acumulados
 `27:00--28:30`
 
 Guion sugerido:
@@ -291,7 +283,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Y además de la figura, conviene mirar la magnitud económica de esos efectos.
 
-### 27. Magnitud de los efectos bursátiles
+### 25. Magnitud de los efectos bursátiles
 `28:30--30:00`
 
 Guion sugerido:
@@ -301,7 +293,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
 
-### 28. Aporte del paper
+### 26. Aporte del paper
 `30:00--31:00`
 
 Guion sugerido:
@@ -311,7 +303,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Pero antes de cerrar, vale la pena dejar explícitas las principales limitaciones.
 
-### 29. Limitaciones
+### 27. Limitaciones
 `31:00--33:00`
 
 Guion sugerido:
@@ -323,7 +315,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Teniendo presentes esas reservas, ahora sí cierro con la idea principal que me gustaría que quedara.
 
-### 30. Conclusiones
+### 28. Conclusiones
 `33:00--34:30`
 
 Guion sugerido:
@@ -335,7 +327,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con esa conclusión, termino dejando la referencia del artículo.
 
-### 31. Referencia
+### 29. Referencia
 `34:30--35:00`
 
 Guion sugerido:
