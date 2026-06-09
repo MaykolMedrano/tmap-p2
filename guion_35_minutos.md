@@ -218,7 +218,7 @@ Guion sugerido:
 
 > Yo presentaría esta lámina con un tono equilibrado. La fortaleza del paper es que hace muy transparente cómo se construye el contrafactual y ofrece varias validaciones: ajuste pretratamiento, relación con intensidad del terrorismo y placebo.
 
-> Pero las dudas son reales. La principal es que el País Vasco tenía una composición industrial excepcional, y la crisis industrial de los 70 y 80 podría contaminar parte del resultado. El propio paper discute este punto y argumenta que la asociación con la intensidad del terrorismo y algunos ejercicios adicionales hacen difícil explicar toda la brecha solo por declive industrial. Aun así, es una limitación seria que vale la pena mencionar.
+> Pero las dudas son reales. La principal es que el País Vasco tenía una composición industrial excepcional, y la crisis industrial de los 70 y 80 podría contaminar parte del resultado. El propio paper discute este punto y argumenta que la asociación con la intensidad del terrorismo y algunos ejercicios adicionales hacen difícil explicar toda la br5echa solo por declive industrial. Aun así, es una limitación seria que vale la pena mencionar.
 
 **Transición a la siguiente diapositiva:**
 > Hasta ahora todo giró en torno al PIB regional; la segunda parte del paper cambia de margen.
