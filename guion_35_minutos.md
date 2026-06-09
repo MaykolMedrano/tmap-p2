@@ -260,7 +260,7 @@ Guion sugerido:
 
 Guion sugerido:
 
-> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Esa es la intuición central de esta segunda estrategia.
+> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Esa es la intuición central de esta segunda estrategia. Si quieres un dato ancla para esta parte, es el siguiente: el retorno anormal acumulado del portafolio `Basque - non-Basque` es de aproximadamente `+10.14%` durante `Good News` y `-11.21%` durante `Bad News`.
 
 > La figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve más creíble. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evolución de la credibilidad del proceso.
 
