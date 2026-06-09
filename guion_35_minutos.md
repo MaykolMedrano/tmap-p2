@@ -255,24 +255,24 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Una vez entendida la especificación, pasemos al resultado principal de esta segunda estrategia.
 
-### 22. Resultado principal 2: retornos anormales y tregua
-`26:00--28:30`
-
-Guion sugerido:
-
-> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Esa es la intuición central de esta segunda estrategia. Si quieres un dato ancla para esta parte, es el siguiente: el retorno anormal acumulado del portafolio `Basque - non-Basque` es de aproximadamente `+10.14%` durante `Good News` y `-11.21%` durante `Bad News`.
-
-> La figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve más creíble. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evolución de la credibilidad del proceso.
-
-**Transición a la siguiente diapositiva:**
-> Y además de la figura, conviene mirar la magnitud económica de esos efectos.
-
-### 23. Magnitud de los efectos bursátiles
-`28:30--30:00`
+### 22. Magnitud de los efectos bursátiles
+`26:00--27:00`
 
 Guion sugerido:
 
 > En términos acumulados, el paper encuentra una rentabilidad anormal compuesta de aproximadamente `10.14%` durante el periodo de `Good News` y de `-11.21%` durante el periodo de `Bad News` para el portafolio vasco relativo al no vasco. Son magnitudes económicamente grandes y muy difíciles de explicar solo por azar, por lo que esta segunda estrategia funciona excepcionalmente bien como respaldo al argumento principal de que el conflicto tiene un costo real medible.
+
+**Transición a la siguiente diapositiva:**
+> Ese patrón también se aprecia con claridad cuando lo miramos en la figura de retornos acumulados.
+
+### 23. Resultado principal 2: retornos anormales y tregua
+`27:00--28:30`
+
+Guion sugerido:
+
+> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Esa es la intuición central de esta segunda estrategia.
+
+> La figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve más creíble. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evolución de la credibilidad del proceso.
 
 **Transición a la siguiente diapositiva:**
 > Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
