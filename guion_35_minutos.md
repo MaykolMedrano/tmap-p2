@@ -255,27 +255,19 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Una vez entendida la especificación, pasemos al resultado principal de esta segunda estrategia.
 
-### 22. Resultado principal 2
-`26:00--27:00`
+### 22. Resultado principal 2: retornos anormales y tregua
+`26:00--28:30`
 
 Guion sugerido:
 
-> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Eso es consistente con la idea de que el mercado valora económicamente la paz.
+> Los resultados van en la dirección esperada. Las firmas expuestas al País Vasco muestran mejor desempeño relativo durante las buenas noticias y peor desempeño relativo durante las malas noticias. Esa es la intuición central de esta segunda estrategia.
 
-**Transición a la siguiente diapositiva:**
-> Ese resultado también se puede ver visualmente en la trayectoria de los retornos acumulados.
-
-### 23. Figura 6: retornos anormales acumulados
-`27:00--28:30`
-
-Guion sugerido:
-
-> Esta figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve más creíble. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evolución de la credibilidad del proceso.
+> La figura resume visualmente esa historia. Durante la tregua, el portafolio vasco tiende a superar al no vasco a medida que la paz se vuelve más creíble. Y al final del proceso esa ganancia relativa se revierte. Lo atractivo de esta figura es que sugiere que el mercado no reacciona solo al anuncio inicial, sino a la evolución de la credibilidad del proceso.
 
 **Transición a la siguiente diapositiva:**
 > Y además de la figura, conviene mirar la magnitud económica de esos efectos.
 
-### 24. Magnitud de los efectos bursátiles
+### 23. Magnitud de los efectos bursátiles
 `28:30--30:00`
 
 Guion sugerido:
@@ -285,7 +277,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
 
-### 25. Aporte del paper
+### 24. Aporte del paper
 `30:00--31:00`
 
 Guion sugerido:
@@ -295,7 +287,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Pero antes de cerrar, vale la pena dejar explícitas las principales limitaciones.
 
-### 26. Limitaciones
+### 25. Limitaciones
 `31:00--33:00`
 
 Guion sugerido:
@@ -307,7 +299,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Teniendo presentes esas reservas, ahora sí cierro con la idea principal que me gustaría que quedara.
 
-### 27. Conclusiones
+### 26. Conclusiones
 `33:00--34:30`
 
 Guion sugerido:
@@ -319,7 +311,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con esa conclusión, termino dejando la referencia del artículo.
 
-### 28. Referencia
+### 27. Referencia
 `34:30--35:00`
 
 Guion sugerido:
