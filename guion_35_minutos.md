@@ -80,6 +80,8 @@ Guion sugerido:
 
 > ETA, sigla de *Euskadi Ta Askatasuna*, es una organización separatista vasca fundada en 1959. La violencia a gran escala se intensifica realmente a fines de los 60 y, sobre todo, durante los 70. El punto importante para nosotros es que no se trata de hechos aislados, sino de un conflicto persistente, concentrado territorialmente y con capacidad de afectar inversión, decisiones empresariales y expectativas.
 
+> Aquí conviene agregar algo que ayuda mucho a interpretar el paper: los autores no estiman cada mecanismo por separado, pero sí discuten canales plausibles. En particular, destacan la extorsión y la violencia directa contra empresarios y firmas, la salida de empresarios del País Vasco para escapar de secuestros o amenazas, y el efecto disuasivo sobre la inversión doméstica y extranjera. O sea, el paper identifica un efecto agregado sobre el PIB, y estos mecanismos ayudan a entender por qué ese efecto podría emerger.
+
 **Transición a la siguiente diapositiva:**
 > Ese contexto se entiende mejor cuando uno mira qué tan concentrada estuvo la violencia.
 
