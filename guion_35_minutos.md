@@ -80,8 +80,6 @@ Guion sugerido:
 
 > ETA, sigla de *Euskadi Ta Askatasuna*, es una organización separatista vasca fundada en 1959. La violencia a gran escala se intensifica realmente a fines de los 60 y, sobre todo, durante los 70. El punto importante para nosotros es que no se trata de hechos aislados, sino de un conflicto persistente, concentrado territorialmente y con capacidad de afectar inversión, decisiones empresariales y expectativas.
 
-> Aquí conviene agregar algo que ayuda mucho a interpretar el paper: los autores no estiman cada mecanismo por separado, pero sí discuten canales plausibles. En particular, destacan la extorsión y la violencia directa contra empresarios y firmas, la salida de empresarios del País Vasco para escapar de secuestros o amenazas, y el efecto disuasivo sobre la inversión doméstica y extranjera. O sea, el paper identifica un efecto agregado sobre el PIB, y estos mecanismos ayudan a entender por qué ese efecto podría emerger.
-
 **Transición a la siguiente diapositiva:**
 > Ese contexto se entiende mejor cuando uno mira qué tan concentrada estuvo la violencia.
 
@@ -203,10 +201,22 @@ Guion sugerido:
 > El resultado placebo no reproduce una brecha prolongada como la del País Vasco. Eso hace más plausible la interpretación causal del ejercicio principal. Al mismo tiempo, el paper reconoce que Cataluña tuvo un desempeño especialmente fuerte en los 90, asociado entre otras cosas a los Juegos Olímpicos de Barcelona de `1992`, y eso incluso podría exagerar un poco la brecha del País Vasco en la parte final de la muestra.
 
 **Transición a la siguiente diapositiva:**
-> Después de ver el placebo, conviene hacer un balance breve de fortalezas y objeciones.
+> Una vez mostrado el resultado y su validación, vale la pena preguntarse por qué canales podría operar ese efecto económico.
 
-### 18. Fortalezas y críticas de esta estrategia
-`20:00--22:00`
+### 18. Mecanismos plausibles
+`20:00--21:00`
+
+Guion sugerido:
+
+> Aquí conviene hacer una distinción fina. El paper estima un efecto agregado sobre el PIB, pero no identifica causalmente cada mecanismo por separado. Aun así, los autores discuten tres canales plausibles: primero, la violencia y la extorsión directa contra empresarios y firmas; segundo, la salida de empresarios del País Vasco para escapar de secuestros o amenazas, lo que implica pérdida de capital humano empresarial; y tercero, el efecto disuasivo sobre la inversión doméstica y extranjera por riesgo e inseguridad.
+
+> Esta slide sirve para interpretar la brecha de PIB: no estamos diciendo que el paper prueba cada canal individualmente, sino que muestra un efecto agregado consistente con estos mecanismos.
+
+**Transición a la siguiente diapositiva:**
+> Después de interpretar los canales posibles, conviene hacer un balance breve de fortalezas y objeciones.
+
+### 19. Fortalezas y críticas de esta estrategia
+`21:00--22:00`
 
 Guion sugerido:
 
@@ -217,7 +227,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Hasta ahora todo giró en torno al PIB regional; la segunda parte del paper cambia de margen.
 
-### 19. Por qué mirar la tregua
+### 20. Por qué mirar la tregua
 `22:00--22:30`
 
 Guion sugerido:
@@ -227,7 +237,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Esa segunda estrategia se apoya en un episodio político muy concreto: el alto al fuego de ETA entre 1998 y 1999.
 
-### 20. La tregua de 1998--1999
+### 21. La tregua de 1998--1999
 `22:30--23:30`
 
 Guion sugerido:
@@ -239,7 +249,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > A partir de esa tregua, el paper construye el diseño empírico del `event study`.
 
-### 21. Diseño del event study
+### 22. Diseño del event study
 `23:30--24:30`
 
 Guion sugerido:
@@ -249,7 +259,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ese diseño en mente, ahora sí podemos mirar la ecuación y su interpretación.
 
-### 22. Event study: ecuación e interpretación
+### 23. Event study: ecuación e interpretación
 `24:30--26:00`
 
 Guion sugerido:
@@ -265,7 +275,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Una vez entendida la especificación, pasemos al resultado principal de esta segunda estrategia.
 
-### 23. Resultado principal 2
+### 24. Resultado principal 2
 `26:00--27:00`
 
 Guion sugerido:
@@ -275,7 +285,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Ese resultado también se puede ver visualmente en la trayectoria de los retornos acumulados.
 
-### 24. Figura 6: retornos anormales acumulados
+### 25. Figura 6: retornos anormales acumulados
 `27:00--28:30`
 
 Guion sugerido:
@@ -285,7 +295,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Y además de la figura, conviene mirar la magnitud económica de esos efectos.
 
-### 25. Magnitud de los efectos bursátiles
+### 26. Magnitud de los efectos bursátiles
 `28:30--30:00`
 
 Guion sugerido:
@@ -295,7 +305,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
 
-### 26. Aporte del paper
+### 27. Aporte del paper
 `30:00--31:00`
 
 Guion sugerido:
@@ -305,7 +315,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Pero antes de cerrar, vale la pena dejar explícitas las principales limitaciones.
 
-### 27. Limitaciones
+### 28. Limitaciones
 `31:00--33:00`
 
 Guion sugerido:
@@ -317,7 +327,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Teniendo presentes esas reservas, ahora sí cierro con la idea principal que me gustaría que quedara.
 
-### 28. Conclusiones
+### 29. Conclusiones
 `33:00--34:30`
 
 Guion sugerido:
@@ -329,7 +339,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con esa conclusión, termino dejando la referencia del artículo.
 
-### 29. Referencia
+### 30. Referencia
 `34:30--35:00`
 
 Guion sugerido:
