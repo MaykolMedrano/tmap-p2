@@ -215,29 +215,21 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Además de esta interpretación económica, el paper aporta una segunda fuente de evidencia desde el mercado bursátil.
 
-### 19. Por qué mirar la tregua
-`22:00--22:30`
+### 19. La tregua como experimento natural
+`22:00--23:30`
 
 Guion sugerido:
 
 > Hasta aquí, la evidencia central viene del PIB regional. La segunda parte del paper cambia de margen: en vez de mirar crecimiento de largo plazo, mira cómo reaccionan los mercados cuando cambia la credibilidad de la paz.
 
-**Transición a la siguiente diapositiva:**
-> Esa segunda estrategia se apoya en un episodio político muy concreto: el alto al fuego de ETA entre 1998 y 1999.
-
-### 20. La tregua de 1998--1999
-`22:30--23:30`
-
-Guion sugerido:
-
-> Antes de hablar de bolsa, conviene ubicar bien el episodio. ETA declara un alto al fuego en septiembre de `1998` y lo rompe en noviembre de `1999`. Al comienzo, esa tregua no se percibe como plenamente creíble; de hecho, hay bastante escepticismo. La gracia del episodio es que, a medida que avanzan los meses, aparecen señales que hacen subir o bajar la probabilidad de paz. Eso es justamente lo que los autores explotan en el `event study`.
+> Esa segunda estrategia se apoya en un episodio político muy concreto: el alto al fuego de ETA entre septiembre de `1998` y noviembre de `1999`. Al comienzo, la tregua no se percibe como plenamente creíble; de hecho, hay bastante escepticismo. La gracia del episodio es que, a medida que avanzan los meses, aparecen señales que hacen subir o bajar la probabilidad de paz. Eso es justamente lo que los autores explotan en el `event study`.
 
 > La intuición entonces es simple: si el conflicto realmente dañaba la economía vasca, las firmas expuestas al País Vasco deberían apreciarse relativamente cuando la tregua gana credibilidad y caer cuando el proceso de paz colapsa.
 
 **Transición a la siguiente diapositiva:**
 > A partir de esa tregua, el paper construye el diseño empírico del `event study`.
 
-### 21. Diseño del event study
+### 20. Diseño del event study
 `23:30--24:30`
 
 Guion sugerido:
@@ -247,7 +239,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ese diseño en mente, ahora sí podemos mirar la ecuación y su interpretación.
 
-### 22. Event study: ecuación e interpretación
+### 21. Event study: ecuación e interpretación
 `24:30--26:00`
 
 Guion sugerido:
@@ -263,7 +255,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Una vez entendida la especificación, pasemos al resultado principal de esta segunda estrategia.
 
-### 23. Resultado principal 2
+### 22. Resultado principal 2
 `26:00--27:00`
 
 Guion sugerido:
@@ -273,7 +265,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Ese resultado también se puede ver visualmente en la trayectoria de los retornos acumulados.
 
-### 24. Figura 6: retornos anormales acumulados
+### 23. Figura 6: retornos anormales acumulados
 `27:00--28:30`
 
 Guion sugerido:
@@ -283,7 +275,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Y además de la figura, conviene mirar la magnitud económica de esos efectos.
 
-### 25. Magnitud de los efectos bursátiles
+### 24. Magnitud de los efectos bursátiles
 `28:30--30:00`
 
 Guion sugerido:
@@ -293,7 +285,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con ambas estrategias sobre la mesa, ya podemos sintetizar el aporte general del paper.
 
-### 26. Aporte del paper
+### 25. Aporte del paper
 `30:00--31:00`
 
 Guion sugerido:
@@ -303,7 +295,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Pero antes de cerrar, vale la pena dejar explícitas las principales limitaciones.
 
-### 27. Limitaciones
+### 26. Limitaciones
 `31:00--33:00`
 
 Guion sugerido:
@@ -315,7 +307,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Teniendo presentes esas reservas, ahora sí cierro con la idea principal que me gustaría que quedara.
 
-### 28. Conclusiones
+### 27. Conclusiones
 `33:00--34:30`
 
 Guion sugerido:
@@ -327,7 +319,7 @@ Guion sugerido:
 **Transición a la siguiente diapositiva:**
 > Con esa conclusión, termino dejando la referencia del artículo.
 
-### 29. Referencia
+### 28. Referencia
 `34:30--35:00`
 
 Guion sugerido:
