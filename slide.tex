@@ -54,7 +54,7 @@
     \tableofcontents
 \end{frame}
 
-\section{Introducción}
+\section{Introducción y contexto}
 
 \begin{frame}{Motivación}
     \begin{itemize}
@@ -88,8 +88,6 @@
         Este paper es recordado fundacionalmente por mostrar cómo construir un contrafactual creíble a nivel regional.
     \end{block}
 \end{frame}
-
-\section{Contexto}
 
 \begin{frame}{Contexto histórico}
     \begin{itemize}
@@ -157,7 +155,6 @@
     \begin{columns}[T,totalwidth=\textwidth]
         \begin{column}{0.52\textwidth}
             \begin{itemize}
-            \footnotesize
                 \item Variables pretratamiento: PIB per cápita, inversión, densidad poblacional, estructura sectorial y capital humano.
                 \item El `donor pool` son las otras 16 regiones españolas disponibles como controles, excluyendo al País Vasco.
                 \item El procedimiento elige pesos no negativos sobre otras regiones para imitar al País Vasco antes del shock.
@@ -208,7 +205,7 @@
 
 \begin{frame}{Figura 1: el resultado central}
     \centering
-    \includegraphics[width=0.62\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_820_1064_155_292.jpg}
+    \includegraphics[width=0.88\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_820_1064_155_292.jpg}
     
     \vspace{0.2cm}
     {\scriptsize\itshape Figure 1. Per Capita GDP for the Basque Country\par}
@@ -231,7 +228,7 @@
             {\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}Intensidad del terrorismo y brecha de PIB\par}
             \vspace{0.16cm}
             \centering
-            \includegraphics[width=0.86\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_802_1062_1059_294.jpg}
+            \includegraphics[width=\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-06_802_1062_1059_294.jpg}
 
             \vspace{0.15cm}
             {\scriptsize\itshape Figure 2. Terrorist Activity and Estimated Gap\par}
@@ -254,7 +251,7 @@
 \begin{frame}{Placebo con Cataluña}
     \begin{columns}[T,totalwidth=\textwidth]
         \begin{column}{0.34\textwidth}
-            \footnotesize
+            \scriptsize
             \begin{itemize}
                 \item Los autores aplican la misma lógica a Cataluña.
                 \item Es una región comparable, pero sin una escalada similar de terrorismo.
@@ -264,7 +261,7 @@
                 Esto fortalece la idea de que la divergencia del País Vasco no es un mero artefacto del método.
             \end{block}
         \end{column}
-        \begin{column}{0.54\textwidth}
+        \begin{column}{0.64\textwidth}
             \centering
             \includegraphics[width=\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-08_823_1062_150_294.jpg}
             
@@ -319,7 +316,7 @@
         \item $R_t^m$, $SMB_t$ y $HML_t$ controlan por movimientos del mercado y factores de riesgo.
         \item En `Table 6`, los autores agregan `Good News` y `Bad News` a esta ecuación y además reportan una `difference regression` (`Basque - non-Basque`).
     \end{itemize}
-    \vspace{0.2cm}
+    \vspace{0.05cm}
     \tiny Intuición: primero se limpia el ruido general del mercado; luego se observa si las firmas expuestas al País Vasco reaccionan distinto cuando la paz gana o pierde credibilidad.
 \end{frame}
 
@@ -343,7 +340,7 @@
 \begin{frame}{Resultado principal 2: retornos anormales y tregua}
     \centering
     \begin{tikzpicture}
-        \node[inner sep=0] (fig6) {\includegraphics[width=0.58\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}};
+        \node[inner sep=0] (fig6) {\includegraphics[width=0.82\linewidth]{paper/images/9b44a171-0b11-4934-8139-812bee0932fe-13_846_1052_157_299.jpg}};
 
         \coordinate (goodx) at ($(fig6.south west)!0.27!(fig6.south east)$);
         \coordinate (badx) at ($(fig6.south west)!0.79!(fig6.south east)$);
@@ -359,7 +356,7 @@
             at ($(badx)+(0,1.2)$) {Bad News\\\tiny 66 sesiones};
     \end{tikzpicture}
     
-    \vspace{0.05cm}
+    \vspace{0.2cm}
     {\scriptsize\itshape Figure 6. Cumulative Abnormal Portfolio Returns\par}
     \vspace{0.08cm}
     \tiny Las firmas expuestas al País Vasco mejoran relativamente durante \textit{Good News} y empeoran cuando el proceso de paz colapsa.
@@ -368,7 +365,7 @@
     \tiny Dato ancla: retorno anormal acumulado de \textit{Basque - non-Basque} de +10.14\% en \textit{Good News} y -11.21\% en \textit{Bad News}.
 \end{frame}
 
-\section{Evaluación general}
+\section{Evaluación y cierre}
 
 \begin{frame}{Aporte del paper}
     \begin{itemize}
@@ -389,8 +386,6 @@
         La defensa del paper es que combina dos fuentes de evidencia distintas, aunque ninguna elimina por completo esas dudas.
     \end{block}
 \end{frame}
-
-\section{Conclusión}
 
 \begin{frame}{Conclusiones}
     \begin{itemize}
